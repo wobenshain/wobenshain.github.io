@@ -1,0 +1,3 @@
+[submodule "adamant-meow"]
+	path = adamant-meow
+	url = git@github.com:wobenshain/adamant-meow.git
