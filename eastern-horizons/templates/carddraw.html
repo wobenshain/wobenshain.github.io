@@ -1,0 +1,33 @@
+<%  if (total !== null) { %>
+<h2><%= total %></h2>
+<div>
+<%
+    }
+    _.each(cardList,function(card) {
+        var cardname = Math.ceil(card/4);
+        if (card == 53) {
+            cardname = "Black Joker";
+        } else if (card == 54) {
+            cardname = "Red Joker";
+        } else {
+            cardname = cardname==1?"Ace":cardname=="11"?"Jack":cardname=="12"?"Queen":cardname=="13"?"King":cardname;
+            cardname += " of ";
+            switch (card % 4) {
+                case 1:
+                    cardname += "Clubs";
+                    break;
+                case 2:
+                    cardname += "Diamonds";
+                    break;
+                case 3:
+                    cardname += "Hearts";
+                    break;
+                case 4:
+                    cardname += "Spades";
+                    break;
+            }
+        }
+%>
+    <img src="images/card<%= card %>.svg" class="card" alt="<%= cardname %>"/>
+<%  }); %>
+</div>

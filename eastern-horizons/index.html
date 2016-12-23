@@ -1,11 +1,15 @@
 <html>
 <head>
-    <title></title>
+    <title>Eastern Horizons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" />
     <!---<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.1/css/selectize.min.css" />--->
     <!---<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.1/css/selectize.bootstrap3.min.css" />--->
+    <link rel="stylesheet" href="css/bootstrap.vertical-tabs.min.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/carddraw.css" />
+    <link rel="stylesheet" href="css/probability.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -23,13 +27,15 @@
         <h1>Eastern Horizons</h1>
         <nav class="navbar">
             <ul class="nav nav-pills">
-                <li class="active"><a data-toggle="tab" data-target="#tab-probability">Probability</a></li>
-                <li><a data-toggle="tab" data-target="#tab-downloads">Downloads</a></li>
+                <li class="active"><a data-toggle="tab" href="#tab-carddraw">Draw</a></li>
+                <li><a data-toggle="tab" href="#tab-probability">Probability</a></li>
+                <li><a data-toggle="tab" href="#tab-downloads">Downloads</a></li>
             </ul>
         </nav>
     </header>
     <div class="tab-content">
-        <div id="tab-probability" class="tab-pane active"></div>
+        <div id="tab-carddraw" class="tab-pane active"></div>
+        <div id="tab-probability" class="tab-pane"></div>
         <div id="tab-downloads" class="tab-pane"></div>
     </div>
 </body>

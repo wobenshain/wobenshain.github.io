@@ -1,0 +1,29 @@
+#tab-probability label {
+    width: 110px;
+}
+
+#tab-probability label:after {
+    content: ':';
+}
+
+#tab-probability input {
+    width: 206px;
+}
+
+#tab-probability button {
+    width: 100%;
+}
+
+#tab-probability .result h2 {
+    text-align: center;
+}
+
+#tab-probability .result div {
+    font-size: 0px;
+    text-align: center;
+}
+
+#tab-probability .result .card {
+    width: 74px;
+    margin: 3px;
+}

@@ -1,0 +1,13 @@
+#tab-carddraw h2 {
+    text-align: center;
+}
+
+#tab-carddraw div {
+    font-size: 0px;
+    text-align: center;
+}
+
+#tab-carddraw .card {
+    margin: 5px;
+    width: 140px;
+}

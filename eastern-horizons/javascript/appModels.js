@@ -3,7 +3,7 @@ app.TemplatesModel = Backbone.Model.extend({
     url: 'templates/',
     fetch: function() {
         var $that = this,
-            templates = ['probability','downloads'],
+            templates = ['carddraw','probability','probability.result','downloads'],
             templateObject = {},
             deferred = $.Deferred(),
             resolve = _.after(templates.length,function() {
@@ -29,6 +29,8 @@ app.BodyModel = Backbone.Model.extend({
 app.ProbabilityModel = Backbone.Model.extend({
     defaults: {
         bonus: 0,
+        cardList: [],
+        probability: null,
         tn: 1
     }
 });
