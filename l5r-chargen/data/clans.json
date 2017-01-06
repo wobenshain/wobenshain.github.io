@@ -1,0 +1,174 @@
+{
+    "None": {
+        "schools": {
+        }
+    },
+    "Badger": {
+        "families": {
+            "Ichiro": ["strength"]
+        },
+        "schools": {
+        }
+    },
+    "Crab": {
+        "families": {
+            "Hida": ["strength"],
+            "Hiruma": ["agility"],
+            "Kaiu": ["intelligence"],
+            "Kuni": ["intelligence"],
+            "Toritaka": ["perception"],
+            "Yasuki": ["awareness"]
+        },
+        "schools": {
+        }
+    },
+    "Crane": {
+        "families": {
+            "Asahina": ["intelligence"],
+            "Daidoji": ["stamina"],
+            "Doji": ["awareness"],
+            "Kakita": ["agility"]
+        },
+        "schools": {
+        }
+    },
+    "Dragon": {
+        "families": {
+            "Agasha": ["willpower"],
+            "Chuda": ["strength"],
+            "Kitsuki": ["awareness"],
+            "Mirumoto": ["agility"],
+            "Togashi": ["reflexes"],
+            "Tonbo": ["awareness"]
+        },
+        "schools": {
+        }
+    },
+    "Fox": {
+        "families": {
+            "Kitsune": ["willpower"]
+        },
+        "schools": {
+        }
+    },
+    "Frog": {
+        "families": {
+            "Kaeru": ["awareness"]
+        },
+        "schools": {
+        }
+    },
+    "Hare": {
+        "families": {
+            "Usagi": ["awareness"],
+            "Ujina": ["agility"]
+        },
+        "schools": {
+        }
+    },
+    "Imperial Families": {
+        "families": {
+            "Miya": ["reflexes"],
+            "Otomo": ["intelligence"],
+            "Seppun": ["agility"]
+        },
+        "schools": {
+        }
+    },
+    "Lion": {
+        "families": {
+            "Akodo": ["agility"],
+            "Ikoma": ["awareness"],
+            "Kitsu": ["intelligence"],
+            "Matsu": ["strength"]
+        },
+        "schools": {
+        }
+    },
+    "Mantis": {
+        "families": {
+            "Moshi": ["intelligence"],
+            "Tsuruchi": ["perception"],
+            "Yoritomo": ["stamina"]
+        },
+        "schools": {
+        }
+    },
+    "Monkey": {
+        "families": {
+            "Toku": ["stamina"],
+            "Fuzake": ["perception"]
+        },
+        "schools": {
+        }
+    },
+    "Oriole": {
+        "families": {
+            "Tsi": ["strength"]
+        },
+        "schools": {
+        }
+    },
+    "Owl": {
+        "families": {
+            "Hantei": ["awareness"],
+            "Chise": ["perception"],
+            "Heichi": ["willpower"]
+        },
+        "schools": {
+        }
+    },
+    "Phoenix": {
+        "families": {
+            "Asako": ["awareness"],
+            "Gennai": ["perception"],
+            "Isawa": ["willpower"],
+            "Shiba": ["perception"]
+        },
+        "schools": {
+        }
+    },
+    "Scorpion": {
+        "families": {
+            "Bayushi": ["agility"],
+            "Shosuro": ["awareness"],
+            "Soshi": ["intelligence"],
+            "Yogo": ["willpower"]
+        },
+        "schools": {
+        }
+    },
+    "Sparrow": {
+        "families": {
+            "Suzume": ["awareness"]
+        },
+        "schools": {
+        }
+    },
+    "Tiger": {
+        "families": {
+            "Yotsu": ["intelligence"]
+        },
+        "schools": {
+        }
+    },
+    "Tortoise": {
+        "families": {
+            "Kasuga": ["perception"]
+        },
+        "schools": {
+        }
+    },
+    "Unicorn": {
+        "families": {
+            "Horiuchi": ["willpower"],
+            "Ide": ["perception"],
+            "Iuchi": ["intelligence"],
+            "Moto": ["agility"],
+            "Shinjo": ["reflexes"],
+            "Utaku": ["stamina"]
+        },
+        "schools": {
+        }
+    }
+}

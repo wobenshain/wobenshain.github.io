@@ -1,0 +1,29 @@
+<div>
+    <label for="clan">Clan</label>
+    <select name="clan">
+<%  for (var clanName in clans) { %>
+        <option value="<%=clanName%>"<%=(clan===clanName)?" SELECTED":""%>><%=clanName%></option>
+<%  } %>
+    </select>
+</div>
+<div>
+    <label for="name">Name</label>
+<%  if (families !== undefined) { %>
+    <select name="family">
+        <option value="">----- Select Family -----</option>
+<%  for (var family in families) { %>
+        <option value="<%=family%>"><%=family%></option>
+<%  } %>
+    </select>
+<%  } %>
+    <input type="text" name="name" value="<%=name%>"/>
+</div>
+<div>
+    <label for="school">School</label>
+    <select name="school">
+        <option value=""><%=(clan==="None")?"None":"----- Select School -----"%></option>
+<%  for (var schoolName in schools) { %>
+        <option value="<%=schoolName%>"<%=(school===schoolName)?" SELECTED":""%>><%=schoolName%></option>
+<%  } %>
+    </select>
+</div>
