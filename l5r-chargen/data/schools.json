@@ -1,0 +1,3451 @@
+{
+  "badger_ichiro_bushi_school": {
+    "name": "Ichiro Bushi School",
+    "traits": ["strength"],
+    "honor": 3.5,
+    "tags": ["bushi"],
+    "skills": ["athletics","commerce","defense","heavy_weapons","jiujutsu","kenjutsu"],
+    "emphases": [
+      {
+        "skill": "kenjutsu",
+        "emphases": ["Katana"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high","bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Transcend The Mountain",
+        "description": "The bushi of the Badger Clan live and train in the rugged territory of the Great Wall of the North, and revere strength as the ultimate measure of any warrior's capabilities - the power of a warrior's fists can still be relied on when all else fails. You may re-roll any Skill roll or Trait roll which uses Strength, but you must keep the result of the second roll. You suffer no movement or combat penalties for Moderate terrain, and only half the normal penalty for Difficult terrain."
+      },
+      "2": {
+        "name": "Strength Of The Badger",
+        "description": "With practice, the Badger learn to call upon their strength to crush their opponents. A number of times per session equal to your Strength Rank, you may re-roll a damage roll, keeping the better of the two results."
+      },
+      "3": {
+        "name": "Crushing Blow",
+        "description": "Experienced Badger learn to deliver blows of truly fearsome power, with weapons or even their bare hands, which can pulverize flesh even through the protection of armor. You may ignore the effects of armor on an opponent's Armor TN. Your unarmed attacks may ignore 1 Rank of your target's Reduction."
+      },
+      "4": {
+        "name": "Crashing Stones",
+        "description": "Ichiro samurai are taught to strike with the speed of the deadly avalanche. Your attacks with Samurai weapons or unarmed strikes are considered Simple Actions."
+      },
+      "5": {
+        "name": "Return The Strike",
+        "description": "The final lesson taught in Badger Clan dojo is that the most effective blows in combat are not the swiftest, but the hardest struck. At the start of a skirmish, before Initiative is rolled, you may choose to lower your Initiative total by 20 for the duration of the skirmish. In exchange, you add your Strength Rank in unkept dice to both your attack and your damage rolls for the first two rounds of that combat."
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light or Heavy Armor","Sturdy Clothing","Daisho","any Heavy or Polearm","Traveling Pack"]
+  },
+  "boar_heichi_bushi_school": {
+    "name": "Heichi Bushi School",
+    "traits": ["strength"],
+    "honor": 3,
+    "tags": ["bushi"],
+    "skills": ["athletics","defense","hunting","intimidation","kenjutsu","spears"],
+    "emphases": [
+      {
+        "skill": "spears",
+        "emphases": ["Mai Chong"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Charge Of The Boar",
+        "description": "The attack of a boar can come from nowhere, with little warning. If you are in the Full Attack stance, you may ready a medium weapon or a spear as a Free Action. When wielding a spear in combat, you gain a damage bonus of +0k1."
+      },
+      "2": {
+        "name": "The Strength Of The Opposition",
+        "description": "The Boar school specializes in using spears, especially the Mai Chong, to snare an opponent's clothing and armor, rendering them helpless. You may call two Raises to Entangle an opponent with a Mai Chong, or three Raises to Entangle them with another spear-class weapon."
+      },
+      "3": {
+        "name": "The Speed Of The Boar",
+        "description": "The Boar bushi learns to strike with the relentless speed of his namesake animal. You may attack as a Simple Action when wielding a spear."
+      },
+      "4": {
+        "name": "The Anger Of The Boar",
+        "description": "Much like their namesake, Boar bushi keep fighting even when critically injured. You may spend a Void point during the Reactions segment to reduce your Wound TN penalty by one Wound Rank (the wounds still exist, you simply feel less pain from them). This effect lasts the remainder of the skirmish."
+      },
+      "5": {
+        "name": "Beyond The Mountains",
+        "description": "At this rank the Boar has learned to control his warrior's fury and unleash it at the most unexpected times, even when he appears to be completely defensive. If you are in the Full Defense Stance, you may make one normal attack with a spear or a Samurai-keyword weapon as a Free Action, ingoring the restriction of the Full Defense Stance. This attack gains a bonus of +2k0 to the attack roll."
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light or Heavy Armor","Sturdy Clothing","Daisho","any Spear","Traveling Pack"]
+  },
+  "crab_hida_bushi_school": {
+    "name": "Hida Bushi School",
+    "traits": ["stamina"],
+    "honor": 3.5,
+    "tags": ["bushi"],
+    "skills": ["athletics","defense","intimidation","kenjutsu","lore_shadowlands","heavy_weapons"],
+    "emphases": [
+      {
+        "skill": "heavy_weapons",
+        "emphases": ["Tetsubo"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Way Of The Crab",
+        "description": "The Hida bushi is the epitome of 'heavy infantry,' able to endure harsh blows and deliver crushing attacks in return. You may ignore TN penalties for wearing heavy armor for all skills except Stealth. When using a Heavy Weapon, you gain a bonus of +1k0 to the total of all damage rolls."
+      },
+      "2": {
+        "name": "The Mountain Does Not Move",
+        "description": "The Hida bushi is famous for extraordinary tenacity, weathering wounds that would kill normal men. You gain Reduction equal to your Earth Ring."
+      },
+      "3": {
+        "name": "Two Pincers, One Mind",
+        "description": "A Hida bushi is relentless. You may make attacks as a Simple Action instead of a Complex Action while using Heavy Weapons or weapons with the Samurai keyword."
+      },
+      "4": {
+        "name": "Devastating Blow",
+        "description": "A Hida stops at nothing to destroy his enemies once his anger is roused. Once per encounter, when wielding a Heavy Weapon you may make a calculated strike against the enemy. Lower the enemy's Reduction by 4 for this attack. If this attack succeeds, you Daze the target. The target may recover from this Conditional Effect by making a successful Earth Ring Roll versus a TN equal to your damage roll during the Reaction Stage of each Round. The TN decreases by 5 each time the target fails the roll."
+      },
+      "5": {
+        "name": "The Mountain Does Not Fall",
+        "description": "Nothing can stop a Hida warrior from fulfilling his duty, not even the threat of death. You may spend a Void Point during the Reaction Stage. During your next Turn, you may take actions as if you were in the Healthy Wound Rank. You ignore the Dazed, Fatigued, and Stunned Conditional Effects. The benefits of this Technique last until the next Reactions Stage."
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light or Heavy Armor","Sturdy Clothing","Daisho","any Heavy Weapon or Polearm","Traveling Pack"]
+  },
+  "crab_kuni_shugenja_school": {
+    "name": "Kuni Shugenja School",
+    "traits": ["willpower"],
+    "affinities": ["earth"],
+    "deficiencies": ["air"],
+    "honor": 2.5,
+    "tags": ["shugenja"],
+    "skills": ["defense","lore_shadowlands","lore_shadowlands","lore_theology","spellcraft","calligraphy"],
+    "emphases": [
+      {
+        "skill": "calligraphy",
+        "emphases": ["Cipher"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["weapon"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Gaze Into Shadow",
+        "description": "The Kuni have carefully studied many of the most sinister opponents imaginable, and have learned how to combat them. You gain a bonus of +1k0 to the total of all Spell Casting Rolls when the target is any non-human creature, and any spell that inflicts damage inflicts an additional +1k1 damage when used against a target who possesses the Shadowlands Taint. You also gain a Free Raise on any spell with the Jade keyword."
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Robes","Wakizashi","Knife","Scroll Satchel","Traveling Pack"]
+  },
+  "crab_yasuki_courtier_school": {
+    "name": "Yasuki Courtier School",
+    "traits": ["perception"],
+    "honor": 2.5,
+    "tags": ["courtier"],
+    "skills": ["courtier","defense","etiquette","intimidation","commerce","sincerity"],
+    "emphases": [
+      {
+        "skill": "commerce",
+        "emphases": ["Appraisal"]
+      },
+      {
+        "skill": "sincerity",
+        "emphases": ["Deceit"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["merchant"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Way Of The Carp",
+        "description": "The Yasuki are masters of commerce and practice it far more openly than other samurai families; they do not consider it to be a breach of etiquette to engage in open commerce. You gain a Free Raise when using the Commerce skill, and you do not lose Honor or Glory for using the Commerce skill even in public. Also, Yasuki are taught from youth to be adept at sizing up their potential customers. When speaking with someone you may make a Contested Roll of your Commerce/Perception against their Etiquette/Awareness to discern some material object or service they want or desire."
+      },
+      "2": {
+        "name": "Do As We Say",
+        "description": "The flip side of Yasuki commerce is Yasuki pushiness. The Yasuki are renowned for both their glib tongues and their high-pressure sales tactics, pressuring and deceiving their customers and allies into doing what they want. A number of times per session equal to your School Rank, you may re-roll a failed Sincerity or Intimidation Skill roll. You must keep the results of the second roll."
+      },
+      "3": {
+        "name": "Treasures Of The Carp",
+        "description": "Your contracts in the merchant and commercial circles of Rokugan make it possible for you to acquire almost anything you might need to satisfy a customer. You may roll Commerce/Awareness at TN 20 to locate a rare or useful item, subject to GM discretion, for someone else. You may track down higher-quality or rarer items by calling Raises."
+      },
+      "4": {
+        "name": "Wiles Of The Carp",
+        "description": "As ruthless merchants, the Yasuki are also skilled at seeing through the deceptions and blandishments of others. Anyone making a Social Skill Roll for the purpose of lying to you or deceiving you has their TN increased by an amount equal to 5 times your School Rank."
+      },
+      "5": {
+        "name": "What Is Yours Is Mine",
+        "description": "The ultimate skill of the Yasuki is to influence others by offering them what they want the most. If you known of a material item someone needs, and arrange for them to get it, you gain a bonus of +5k0 to any Contested Social Rolls you make against that person for the next 24 hours."
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Traditional Clothing","Wakizashi","Knife","Calligraphy Set","Traveling Pack"]
+  },
+  "crab_hiruma_bushi_school": {
+    "name": "Hiruma Bushi School",
+    "traits": ["willpower"],
+    "honor": 4.5,
+    "tags": ["bushi"],
+    "skills": ["athletics","hunting","kyujutsu","lore_shadowlands","stealth","kenjutsu"],
+    "emphases": [
+      {
+        "skill": "kenjutsu",
+        "emphases": ["Katana"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Torch's Flame Flickers",
+        "description": "The Hiruma learns to focus his trikes even while protecting himself, perfecting the penetrating quality of his blow without sacrificing his defense. While you assume the Attack Stance, you gain a bonus of +1k0 to the total of all attack rolls. You are skilled at survival and can make all food, water, and jade rations last twice as long for a number of people equal to your Hunting Skill Rank."
+      },
+      "2": {
+        "name": "Wolf's Little Lesson",
+        "description": "Hiruma learn to dash in and out in a single motion. While you assume the Attack Stance, you add 5 to your Armor TN every time you hit with a melee weapon. This bonus may stack a number of times equal to your School Rank and lasts unti the end of the skirmish."
+      },
+      "3": {
+        "name": "Hummingbird Wings",
+        "description": "The Hiruma know how the hummingbird can move in any direction and apply this truism to battle. Once per Round you may activate this Technique when an opponent targets you with an attack. You gain a bonus of double your School Rank to your Armor TN for that attack. This stacks with any other Armor TN bonuses you gain from other means (Such as spending a Void Point)."
+      },
+      "4": {
+        "name": "Shark Smells Blood",
+        "description": "Against a weakened opponent, a Hiruma is a terrible foe indeed. You may make attacks as a Simple Action instead of a Complex Action when using a weapon with the Samurai keyword."
+      },
+      "5": {
+        "name": "Daylight Wastes No Movement",
+        "description": "The Hiruma learns to use no more energy than is precisely needed to kill his opponent. If you deliver more Wounds than necessary to kill your target, you may apply the exess Woudns to the next target you hit. This Technique does not activate two attacks in a row. The carry-over effect does not last beyond the end of the current skirmish."
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Ashigaru or Light Armor","Sturdy Clothing","Daisho","Bow with 20 Arrows or Knife","Traveling Pack"]
+  },
+  "crab_toritaka_bushi_school": {
+    "name": "Toritaka Bushi School",
+    "traits": ["strength"],
+    "honor": 5.5,
+    "tags": ["bushi"],
+    "skills": ["hunting","hunting","kenjutsu","lore_spirit_realms","spears","animal_handling"],
+    "emphases": [
+      {
+        "skill": "animal_handling",
+        "emphases": ["Falcons"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Falcon's Eyes",
+        "description": "A Toritaka must be aware of his surroundings at all times, for his enemies can appear anywhere. You add +1k0 to all Skill and raw Trait rolls involving the Perception Trait. Additionally, when striking a creature from another Spirit Realm (including oni from Jigoku and hungry dead from Gaki-do), you add +1k0 to all damage rolls."
+      },
+      "2": {
+        "name": "The Falcon Takes Flight",
+        "description": "Through his training, the Toritaka can sense the emanations of nearby spirits as they cross over into the mortal realm. You may attempt to detect the presence of any creatures from other Spirit Realms by making a Perception Trait Roll against a TN equal to the creature's Air Ring x 5."
+      },
+      "3": {
+        "name": "The Falcon's Wings",
+        "description": "The Toritaka strikes with precision, constantly keeping his enemies at bay. You may make attacks as a Simple Action instead of a Complex Action while wielding a spear or a weapon with the Samurai keyword."
+      },
+      "4": {
+        "name": "Vigilant And Strong",
+        "description": "Monsters may have tricks to confuse their enemies, but the Toritaka learns to see the truth through the fog. You may spend a Void Point to negate any darkness or blinding penalties. This effect lasts until the Reactions Phase two Rounds later."
+      },
+      "5": {
+        "name": "Claws Of The Falcon",
+        "description": "Nothing will stop the Toritaka's attack from hitting its target. Your attacks ignore up to 5 points of your opponent's Reduction (if he has any). Against creatures from other Spirit Realms, you may spend a Void Point as a Free Action to reduce the creature's Reduction by 10 for one Round."
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light Armor","Sturdy Clothing","Daisho","any 1 weapon","Traveling Pack"]
+  },
+  "crab_ob_hiruma_scout_school": {
+    "name": "Hiruma Scout School",
+    "traits": ["reflexes"],
+    "honor": 4.5,
+    "tags": ["bushi"],
+    "skills": ["athletics","hunting","kenjutsu","kyujutsu","lore_shadowlands","stealth"],
+    "emphases": [
+      {
+        "skill": "stealth",
+        "emphases": ["Sneaking"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Dance the Razor's Edge",
+        "description": "The Hiruma scouts learn the ways of the Shadowlands intimately, and are taught to rely on speed and stealth to survive, function, and escape in that most inhospitable of environments. You may add your Stealth Skill rank to the total of your Initiative rolls (unless caught by surprise or otherwise unaware). You can make all food, water, and jade rations last twice as long as normal for a number of people equal to your Hunting Skill Rank. While in the Shadowlands, you gain +1k0 to Stealth rolls and always know the direction of the Empire and roughly how far away it is."
+      },
+      "2": {
+        "name": "Run Like the Wind",
+        "description": "The Hiruma practice speed, evasion, and endurance in order to evade their enemies and deliver their scouting reports. You may make Free and Simple Move actions while in the Full Defense stance. You can run at high speed for a number of hours equal to your Stamina + School Rank, after which you are Exhausted until you have one hour's rest."
+      },
+      "3": {
+        "name": "Veil of the Spirits",
+        "description": "At this Rank, the Hiruma has perfected his skills with stealth to the point where they become almost supernatural. As long as you do not move and have some form of cover, concealment, or camouflage available (GM's discretion), you may spend a Void Point to make yourself all but invisible - in mechanical terms, this adds a number of kept dice to your Stealth roll equal to your School Rank. This effect lasts until you move or make a noise."
+      },
+      "4": {
+        "name": "Harness the Wind",
+        "description": "The Hiruma has now learned to strike as swiftly as he runs. You may make attacks as a Simple Action instead of a Complex Action when using any samurai weapons, knife, or bow. You may also attack as a Simple Action regardless of weapon when fighting any Shadowlands creature or other known Tainted nonhuman (such as zombies or gaki)."
+      },
+      "5": {
+        "name": "Strike of the Stalker",
+        "description": "The Hiruma Scouts strike their opponents from hiding, delivering vicious blows that get past all defenses. If you are striking a surprised or unaware foe, your Raises are not limited by your Void,a nd you can ignore 10 points of Reduction (from any source)."
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Ashigaru or Light Armor","Sturdy Clothing","Daisho","Bow with 20 Arrows or Knife","Traveling Pack"]
+  },
+  "crane_kakita_bushi_school": {
+    "name": "Kakita Bushi School",
+    "traits": ["reflexes"],
+    "honor": 6.5,
+    "tags": ["bushi"],
+    "skills": ["etiquette","kenjutsu","kyujutsu","sincerity","tea_ceremony","iaijutsu"],
+    "emphases": [
+      {
+        "skill": "iaijutsu",
+        "emphases": ["Focus"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei","high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Way Of The Crane",
+        "description": "The study of the sword demonstrates the many ways in which the art of Kakita's technique can be applied. You add twice your Iaijutsu Skill to all Initiative rolls. You gain a bonus of +1k1 plus your School Rank to the total of all attack and Focus rolls while assuming the Center Stance. This bonus also applies during the Combat Round following one in which you assume the Center Stance."
+      },
+      "2": {
+        "name": "Speed Of Lightning",
+        "description": "Enemies who are slow or weak of spirit are doomed to failure. You gain a bonus of +2k0 to the total of all attack rolls against those with lower Initiative than your own."
+      },
+      "3": {
+        "name": "First And Last Strike",
+        "description": "A Kakita Bushi is feared throughout the Empire as a follower of the oldesta nd most venerated dueling tradition in the Empire. You may Strike first in a duel if you win the Iaijutsu/Void roll by a difference of 3 or higher. You gain a Free Raise on your Strike for each additional margin of 3 instead of 5."
+      },
+      "4": {
+        "name": "One Strike, Two Cuts",
+        "description": "With one pure strike, the advanced student of Kakita's technique cuts his opponent twice. You may make attacks as a Simple Action instead of a Complex Action while using weapons with the Samurai keyword."
+      },
+      "5": {
+        "name": "Strike With No Thought",
+        "description": "A true student of Kakita requires no thought before the perfect strike, depending entirely on instinct. You may take one Simple Action per Turn while assuming the Center Stance. You gain the benefits of Center Stance while you assume the stance instead of the following Turn, and you may remain in the Center Stance as many consecutive Turns as desired. The Simple Action you take can be a Move Action (bypassing the normal restriction of the Center Stance)."
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light Armor","Sturdy Clothing","Daisho","any 1 weapon","Traveling Pack"]
+  },
+  "crane_asahina_shugenja_school": {
+    "name": "Asahina Shugenja School",
+    "traits": ["awareness"],
+    "affinities": ["air"],
+    "deficiencies": ["fire"],
+    "honor": 6.5,
+    "tags": ["shugenja"],
+    "skills": ["etiquette","lore_theology","meditation","spellcraft","calligraphy"],
+    "emphases": [
+      {
+        "skill": "calligraphy",
+        "emphases": ["Cipher"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["artisan"],
+        "ranks": 1
+      },
+      {
+        "tags": ["high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Soul's Grace",
+        "description": "The Asahina have harnessed the power of the kami for art, not war. You may spend a Void Point to reduce the total of all opponents' damage rolls inflicted within 20' of you by 0k1 for a number of rounds equal to your School Rank. (Using this technique again before its duration expires \"resets\" the duration but does not increase the damage penalty.) You also gain a Free Raise on any spell with the Defense keyword.\nSpells: Sense, Commune, Summon, 3 Air, 2 Water, and 1 Earth"
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Robes","Bo","Wakizashi","Scroll Satchel","Traveling Pack"]
+  },
+  "crane_doji_courtier_school": {
+    "name": "Doji Courtier School",
+    "traits": ["awareness"],
+    "honor": 6.5,
+    "tags": ["courtier"],
+    "skills": ["calligraphy","perform_storytelling","sincerity","tea_ceremony","courtier","etiquette"],
+    "emphases": [
+      {
+        "skill": "courtier",
+        "emphases": ["Manipulation"]
+      },
+      {
+        "skill": "etiquette",
+        "emphases": ["Courtesy"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["artisan","perform"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Soul Of Honor",
+        "description": "Apprentice Doji courtiers are taught to rely on their Honor when dealing with others, infusing their every word and gesture with the power of their purity, and to build networks of allies by discerning what others need and fulfilling those needs. So long as you maintain your Honor Rank at 6.0 or better, you gain a Free Raise on all Courtier, Sincerity, and Etiquette rolls. Also, by conversing with another person for a few minutes, you can make a Contested Roll of Courtier (Manipulation) / Awareness against the target's Etiquette (Courtesy) / Awareness to learn whether they are in need of any favors or assistance (such as needing travel papers to reach another province, for example)."
+      },
+      "2": {
+        "name": "Speaking In Silence",
+        "description": "At this Rank the Doji learns Cadence, the art of communicating through subtle gestures and body language. This gives them a huge advantage in the courts by allowing them to share information while their rivals are none the wiser. You can roll Courtier / Intelligence at TN 15 to communicate simple ideas and instructions (things like \"distract them,\" \"this favors us,\" or \"Intercept that person\") with any other Crane who is trained in the Doji Courtier School or who has at least 5 Ranks in the Courtier Skill. More complex ideas can be conveyed with Raises, although there is an upper limit (set by the GM) on how complicated Cadence can become."
+      },
+      "3": {
+        "name": "The Perfect Gift",
+        "description": "The Doji build their networks of alliances through selflessness, offering others what they need so that in the future the Doji may rely on their assistance. Any time you are in court or in an urban area, you can roll Courtier / Awareness at TN 20 to come up with a suitable gift or a helpful political favor for someone else. By calling Raises on this roll, you can acquire a rarer or more potent gift or favor. If such a gift or favor is accepted, you may immediately take that person as an Ally with 1-point Devotion, without XP cost (subject to the GM's permission)."
+      },
+      "4": {
+        "name": "Voice Of Honor",
+        "description": "At this Rank the Doji has learned the art of political maneuvering, making his positions and arguments appear synonymous with Honor, forcing anyone who disagrees with him to take a dishonorable position. In any debate or arguement, you may make a Contested Roll of Courtier (Manipulation) / Awareness against the target's Etiquette (Courtesy) / Awareness. If you win the roll, the opponent is forced to concede that his position conflicts with the demands of Honor and Bushido, and if he persists in that position he will commit a breach of etiquette. (It is the GM's discretion, based on the circumstances, as to whether it is a minor or major breach.)"
+      },
+      "5": {
+        "name": "The Gift Of The Lady",
+        "description": "The final training of the Doji teaches them the art of influencing the emotions of others, making friends and allies out of almost anyone - even bitter enemies. By conversing with someone for a few minutes, you may make a Contested Roll of Courtier (Manipulation) / Awareness against the target's Etiquette (Courtesy) / Willpower. If the target is an Ally, you gain a bonus of +5k0 to the total of this roll. With a success, you shift the target's emotions in a favorable direction, persuading them to listen to your advice and counsel. The GM is the final arbiter but in general, the target will go along with anything you suggest which does not conflict with his basic loyalties."
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Extravagant Clothing","Wakizashi","any 1 weapon","Calligraphy Set","Traveling Pack"]
+  },
+  "crane_daidoji_iron_warriors": {
+    "name": "Daidoji Iron Warriors",
+    "traits": ["agility"],
+    "honor": 6.5,
+    "tags": ["bushi"],
+    "skills": ["battle","defense","defense","iaijutsu","kyujutsu","kenjutsu"],
+    "emphases": [
+      {
+        "skill": "kenjutsu",
+        "emphases": ["Katana"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Force Of Honor",
+        "description": "The Iron Warrior serves as the shield of his clan, defending the honor and homes of the Crane. You gain a bonus of your Honor Rank (rounded down) minus 4 to your Wounds at each Wound Rank, to a minimum bonus of one. (Thus at Honor Rank 6.5, you gain a bonus of 2 Wounds to each Wound Rank.) Additionally, you gain a bonus of +1k0 to the total of all attack rolls while in the Attack Stance."
+      },
+      "2": {
+        "name": "The Shield Of Faith",
+        "description": "The Iron Warrior truly believes that his work serves a higher purpose. When you perform the Guard Maneuver, the benefits last for an additional Round. Additionally, the Armor TN bonus of the Guard Maneuver is increased by 5. (This bonus applies to both your Armor TN and your target's Armor TN - thus, you suffer not TN penalty when Guarding, and your target gains a bonus of +15 to his Armor TN instead of +10.)"
+      },
+      "3": {
+        "name": "Strike Beneath The Veil",
+        "description": "The Daidoji is an intractable foe, devastating to face under any circumstances. You may make melee attacks as a Simple Action instead of a Complex Action while in the Attack Stance."
+      },
+      "4": {
+        "name": "Vigilance Of Mind",
+        "description": "The Iron Warrior is always on the lookout for dangers. You may spend a Void Point during the Reactions Stage to target an opponent who has attempted to strike at either you or the target of your Guard Maneuver during the Round. You gain a bonus of +2k1 to the total of all attack and damge rolls against that opponent during the next Round."
+      },
+      "5": {
+        "name": "To Tread On The Sword",
+        "description": "When the Iron Warrior fights to protect his charge, he will continue on long after others would perish. You may spend two Void Points as a Free Action when someone declares an action against the target of your Guard Maneuver. You become the target of the action instead (if it would be a legal action - GM's discretion in questionable instances). You also gain one Free Action that you may use immediately for the sole purpose of moving toward the target of your Guard Maneuver. If you cannot reach your target, this Technique has no effect."
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light or Heavy Armor","Sturdy Clothing","Daisho","Heavy Weapon or Polearm","Traveling Pack"]
+  },
+  "dragon_mirumoto_bushi_school": {
+    "name": "Mirumoto Bushi School",
+    "traits": ["stamina"],
+    "honor": 4.5,
+    "tags": ["bushi"],
+    "skills": ["defense","iaijutsu","lore_shugenja","lore_theology","meditation","kenjutsu"],
+    "emphases": [
+      {
+        "skill": "kenjutsu",
+        "emphases": ["Katana"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei","high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Way Of The Dragon",
+        "description": "Initiates of the Mirumoto Bushi School must master the basic principles of Niten, the two-sword technique founded by Mirumoto himself. When wielding a katana in your main hand and a wakizashi in your off hand, you suffer no penalties of any kind for dual wielding, and you gain a bonus of your School Rank to your Armor TN (This is cumulative with the normal bonus for wielding two weapons). Additionally, when you are targeted with a spell, you may raise or lower the TN of that spell's Spellcasting Roll by 5."
+      },
+      "2": {
+        "name": "The Calm In Midst Of Thunder",
+        "description": "In addition to their focus on the art of kenjutsu, the Mirumoto study the art of the duel as well in order to properly face their traditional opponents among the Kakita. While you assume the Center Stance, you gain a bonus to the total of your Iaijutsu rolls equal to your Kenjutsu Skill Rank."
+      },
+      "3": {
+        "name": "Strong And Swift",
+        "description": "As the exploration of Niten continues, the student learns to overwhelm opponents with a flurry of blows while maintaining a superior defense. Attacking is a Simple Action for you while you use weapons with the Samurai keyword."
+      },
+      "4": {
+        "name": "Furious Retaliation",
+        "description": "Once an opponent presents himself as a threat, the Mirumoto will stop at nothing to defeat him to defend the honor of the family's teachings. During the Reactions Stage of Combat, you may choose one opponent who made or attempted an attack against you this Round. During your next Turn, you gain a bonus of +3k0 to all attack rolls against that target."
+      },
+      "5": {
+        "name": "Heart Of The Dragon",
+        "description": "Masters of the Mirumoto Bushi School seem to strike from everywhere at once. If you attack twice in the same Turn while you are wielding a katana in your main hand and a wakizashi in your off hand, you may make one additional attack with your off hand as a Free Action."
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light Armor","Sturdy Clothing","Daisho","any 1 weapon","Traveling Pack"]
+  },
+  "dragon_tamori_shugenja_school": {
+    "name": "Tamori Shugenja School",
+    "traits": ["stamina"],
+    "affinities": ["earth"],
+    "deficiencies": ["air"],
+    "honor": 4.5,
+    "tags": ["shugenja"],
+    "skills": ["athletics","defense","divination","lore_theology","medicine","spellcraft","calligraphy"],
+    "emphases": [
+      {
+        "skill": "calligraphy",
+        "emphases": ["Cipher"]
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Flesh of the Elements",
+        "description": "The Tamori have learned to distill the essence of magic and contain it within concoctions or objects for later use. You may expend one spell slot to store a spell you know that has an Area of effect \"one target person\" or \"one target creature\" in a potion, to be activated later. This stored spell may be activated instantly by anyone holding the potion by expending a Simple Action to drink it or a Complex Action to throw it (depending upon the spell's target), using Athletics (Throwing) / Agility. Spells stored in this manner may be stored indefinitely, but count against your spell slots per day for each day that they continue to await activation. Creating a potion in this manner requires a number of hours equal to the stored spell's Mastery Level. You also gain a Free Raise on any spell with the Craft keyword.\nSpells: Sense, Commune, Summon, 3 Earth, 2 Fire, and 1 Water"
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Robes","Wakizashi","any 1 weapon","Scroll Satchel","Traveling Pack"]
+  },
+  "dragon_kitsuki_investigator_school": {
+    "name": "Kitsuki Investigator School",
+    "traits": ["perception"],
+    "honor": 5.5,
+    "tags": ["courtier"],
+    "skills": ["courtier","kenjutsu","meditation","sincerity","etiquette","investigation"],
+    "emphases": [
+      {
+        "skill": "etiquette",
+        "emphases": ["Courtesy"]
+      },
+      {
+        "skill": "investigation",
+        "emphases": ["Interrogation"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["lore"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Kitsuki's Method",
+        "description": "The Kitsuki are masters of investigation and perception, noticing the most minute and telling details with merely a glance. You gain a Free Raise on all your Investigation Skill Rolls. However, while the Kitsuki are trained for investigation and diplomacy, unlike other courtiers they do not wholly neglect the ways of the warrior. In a skirmish, you add your Perception Trait Rank to your Armor TN."
+      },
+      "2": {
+        "name": "Wisdom The Wind Brings",
+        "description": "The Kitsuki skill at noticing small details makes it very difficult to deceive them. Anyone making a Social Skill Roll for the purpose of lying to you or otherwise deceiving you, or making a Feint or Disarm Maneuver against you in a skirmish, must add +5 to their TN for each of your Kitsuki Investigator School Ranks."
+      },
+      "3": {
+        "name": "Know The Rhythm Of The Heart",
+        "description": "The Kitsuki study a secret methodology known as Ichi Miru, or \"first look,\" which allows them to size up another person in almost a single glance. After speaking with someone for a few moments, you can roll Investigation (Notice) / Perception against a TN of their Intelligence x 5. A success grants you a true and accurate, if simple, picture of their personality and motivations. For example, you might perceive that a boisterous ronin is actually a calculating man who is trying to put on the picture of being a rude, simple fellow."
+      },
+      "4": {
+        "name": "Finding The Path",
+        "description": "The Kitsuki has learned the art of uncovering and tracking others' social connections and networks of alliances. By conversing with someone for a few minutes, you can make a Contested Roll of your Investigation (Interrogation) / Intelligence against their Etiquette (Courtesy) / Intelligence to identify one of their allies or enemies. Each successful Raise you make on this roll will identify another of their allies or enemies (you choose whether you learn an ally or an enemy - the GM chooses which specific person is revealed). This technique can be used against each specific person once per day."
+      },
+      "5": {
+        "name": "The Eyes Betray The Heart",
+        "description": "Kitsuki's method allows its master practitioners to see through even the most practiced falsehoods and tricks. At this rank, any knowing attempt to lie to you (as opposed to unwittingly passing on false information) will almost certainly fail. You automatically make a Contested Roll of your Investigation (Interrogation) / Perception against the liar's Sincerity (Deceit) / Willpower, whether or not you suspect them of lying. Further, if you already known someone is lying to you, you gain a bonus of +5k0 on this Contested Roll, and my call Raises on the roll in an attempt to make them inadvertently give away more information than they intended (GM's choice what information they reveal)."
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Traditional Clothing","Wakizashi","Knife","Calligraphy Set","Traveling Pack"]
+  },
+  "dragon_togashi_tattooed_order": {
+    "name": "Togashi Tattooed Order",
+    "traits": ["void"],
+    "honor": 4.5,
+    "tags": ["monk"],
+    "skills": ["athletics","craft_tattooing","defense","jiujutsu","meditation"],
+    "wildcards": [
+      {
+        "tags": ["bugei","high","merchant"],
+        "ranks": 1
+      },
+      {
+        "tags": ["lore"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Blood Of The Kami",
+        "description": "The blood of the Kami is barely diluted in the ruling line of the Togashi order, and the brothers chosen to serve the Dragon as Togashi vassals receive the mystical blood of a god in the form of unique tattoos. You gain two Tattoos at this rank."
+      },
+      "2": {
+        "name": "Body Of Stone",
+        "description": "Master of the body is the first essential step of a monk's journey toward enlightenment, and martial arts are the perfect tool to bring the body and spirit into harmony. You gain a bonus of +1k1 to the total of all unarmed attack and damage rolls."
+      },
+      "3": {
+        "name": "Blessing Of The Kami",
+        "description": "As an ise zumi continues his journey of self-discovery, accumulating new experiences along the way, he will eventually be judged worth of additional insight in the form of new tattoos. You gain two additional Tattoos."
+      },
+      "4": {
+        "name": "Will Of Stone",
+        "description": "Perfect mastery of the flesh is an indication that a soul's journey is nearing its end. You may make unarmed attacks as a Simple Action rather than a Complex Action."
+      },
+      "5": {
+        "name": "Touch Of The Kami",
+        "description": "Insight into the true nature of the universe is the reward for a soul that seeks true mastery of the spirit. You gain two additional Tattoos."
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Robes","Bo","Traveling Pack"]
+  },
+  "dragonfly_tonbo_shugenja_school": {
+    "name": "Tonbo Shugenja School",
+    "traits": ["perception"],
+    "affinities": ["water"],
+    "deficiencies": ["fire"],
+    "honor": 4.5,
+    "tags": ["shugenja"],
+    "skills": ["calligraphy","courtier","etiquette","sincerity","spellcraft","meditation"],
+    "emphases": [
+      {
+        "skill": "meditation",
+        "emphases": ["Void Recovery"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Guided By Fate",
+        "description": "The Tonbo are adept at court as well as the ways of the shugenja, serving as they have as the Dragon Clan's intermediaries almost since their creation. The kami's whispers can be powerful tools in court. You may expend one spell slot to gain a bonus of +1k0 on one Social Skill Roll. You may never spend more spell slots than your School Rank to augment a single roll. You gain a Free Raise on any spell with the Divination keyword."
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Robes","Wakizashi","Knife","Scroll Satchel","Traveling Pack"]
+  },
+  "falcon_toritaka_bushi_school": {
+    "name": "Toritaka Bushi School",
+    "traits": ["strength"],
+    "honor": 5.5,
+    "tags": ["bushi"],
+    "skills": ["hunting","hunting","kenjutsu","lore_spirit_realms","spears","animal_handling"],
+    "emphases": [
+      {
+        "skill": "animal_handling",
+        "emphases": ["Falcons"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Falcon's Eyes",
+        "description": "A Toritaka must be aware of his surroundings at all times, for his enemies can appear anywhere. You add +1k0 to all Skill and raw Trait rolls involving the Perception Trait. Additionally, when striking a creature from another Spirit Realm (including oni from Jigoku and hungry dead from Gaki-do), you add +1k0 to all damage rolls."
+      },
+      "2": {
+        "name": "The Falcon Takes Flight",
+        "description": "Through his training, the Toritaka can sense the emanations of nearby spirits as they cross over into the mortal realm. You may attempt to detect the presence of any creatures from other Spirit Realms by making a Perception Trait Roll against a TN equal to the creature's Air Ring x 5."
+      },
+      "3": {
+        "name": "The Falcon's Wings",
+        "description": "The Toritaka strikes with precision, constantly keeping his enemies at bay. You may make attacks as a Simple Action instead of a Complex Action while wielding a spear or a weapon with the Samurai keyword."
+      },
+      "4": {
+        "name": "Vigilant And Strong",
+        "description": "Monsters may have tricks to confuse their enemies, but the Toritaka learns to see the truth through the fog. You may spend a Void Point to negate any darkness or blinding penalties. This effect lasts until the Reactions Phase two Rounds later."
+      },
+      "5": {
+        "name": "Claws Of The Falcon",
+        "description": "Nothing will stop the Toritaka's attack from hitting its target. Your attacks ignore up to 5 points of your opponent's Reduction (if he has any). Against creatures from other Spirit Realms, you may spend a Void Point as a Free Action to reduce the creature's Reduction by 10 for one Round."
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light Armor","Sturdy Clothing","Daisho","any 1 weapon","Traveling Pack"]
+  },
+  "fox_kitsune_shugenja_school": {
+    "name": "Kitsune Shugenja School",
+    "traits": ["stamina"],
+    "affinities": ["earth"],
+    "deficiencies": ["air"],
+    "honor": 4.5,
+    "tags": ["shugenja"],
+    "skills": ["calligraphy","defense","hunting","meditation","spellcraft","medicine"],
+    "emphases": [
+      {
+        "skill": "medicine",
+        "emphases": ["Herbalism"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high","bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Essence Of Chikushudo",
+        "description": " None in the Empire are closer to the ways of nature than the simple Kitsune who make the wilderness their home. You may use the Sense, Commune, and summon basic spells to affect the animal spirits of Chikushudo as well as kami (using Summon results in the appearance of a single animal spirit rather than a set amount of the elemental material). Animal spirits tend to be more direct than kami, and perceive things differently, but have just as little sense of why man does what he does. You gain a Free Raise on any nonSpells: Sense, Commune, Summon, 3 Earth, 2 Water, and 1 Fire"
+      }
+    },
+  "koku": 3,
+  "bu": 0,
+  "zeni": 0,
+  "outfit": ["Robes","Wakizashi","Knife","Scroll Satchel","Traveling Pack"]
+  },
+  "hare_usagi_bushi_school": {
+    "name": "Usagi Bushi School",
+    "traits": ["reflexes"],
+    "honor": 4,
+    "tags": ["bushi"],
+    "skills": ["defense","hunting","jiujutsu","kenjutsu","lore_maho","athletics"],
+    "emphases": [
+      {
+        "skill": "athletics",
+        "emphases": ["Running"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei","high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Speed Of The Hare",
+        "description": "The Hare are known for fighting with a speed and agility reminiscent of the animal for which their clan is named. In any situation where you have room to dodge, jump, and otherwise maneuver (GM's discretion), you may add your Athletics Skill Rank to your Armor TN except when in the Full Attack or Center stance. Your Water Ring is considered 1 higher for purposes of how far you can move with Move actions."
+      },
+      "2": {
+        "name": "Leap Of The Hare",
+        "description": "The Hare bushi has learned to strike with a devastating springing attack that catches many opponents off guard. If you are in the Full Attack stance, you can leap forward and attack an opponent up to 15' away without taking a Move Action. All of your attacks on this turn must target that opponent."
+      },
+      "3": {
+        "name": "Swift As Lightning",
+        "description": "The speed and flexibility of the Hare allows him to strike with fearsome rapidity. Your attacks with unarmed strikes, knives, or Samurai-keyword weapons are considered Simple Actions."
+      },
+      "4": {
+        "name": "Kick Of The Hare",
+        "description": "The Hare has learned not only how to strike with speed, but also how to dodge and avoid his foes at the same time. You may now perform your Rank Two Techniques while in the Attack stance instead of the Full Attack stance. If you perform the technique in the Full Attack stance, you may make your second attack of the Round against another opponent within 15' of the first opponent."
+      },
+      "5": {
+        "name": "Reichin's Style",
+        "description": "The final lesson of the Hare school is a whirling flurry of leaps, feints, and attacks that come at the opponent from all directions, confusing and disorienting him. You may perform the Feint Maneuver for only 1 Raise, and your damage bonus from a successful Feint is not limited to your Insight Rank x 5."
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Ashigaru or Light Armor","Sturdy Clothing","Daisho","Bow (with 20 arrows) or Knife","Traveling Pack"]
+  },
+  "hare_usagi_bushi_school_after_clan_war": {
+    "name": "Usagi Bushi School (After Clan War)",
+    "traits": ["reflexes"],
+    "honor": 4,
+    "tags": ["bushi"],
+    "skills": ["defense","hunting","jiujutsu","kenjutsu","lore_kolat","athletics"],
+    "emphases": [
+      {
+        "skill": "athletics",
+        "emphases": ["Running"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei","high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Speed Of The Hare",
+        "description": "The Hare are known for fighting with a speed and agility reminiscent of the animal for which their clan is named. In any situation where you have room to dodge, jump, and otherwise maneuver (GM's discretion), you may add your Athletics Skill Rank to your Armor TN except when in the Full Attack or Center stance. Your Water Ring is considered 1 higher for purposes of how far you can move with Move actions."
+      },
+      "2": {
+        "name": "Leap Of The Hare",
+        "description": "The Hare bushi has learned to strike with a devastating springing attack that catches many opponents off guard. If you are in the Full Attack stance, you can leap forward and attack an opponent up to 15' away without taking a Move Action. All of your attacks on this turn must target that opponent."
+      },
+      "3": {
+        "name": "Swift As Lightning",
+        "description": "The speed and flexibility of the Hare allows him to strike with fearsome rapidity. Your attacks with unarmed strikes, knives, or Samurai-keyword weapons are considered Simple Actions."
+      },
+      "4": {
+        "name": "Kick Of The Hare",
+        "description": "The Hare has learned not only how to strike with speed, but also how to dodge and avoid his foes at the same time. You may now perform your Rank Two Techniques while in the Attack stance instead of the Full Attack stance. If you perform the technique in the Full Attack stance, you may make your second attack of the Round against another opponent within 15' of the first opponent."
+      },
+      "5": {
+        "name": "Reichin's Style",
+        "description": "The final lesson of the Hare school is a whirling flurry of leaps, feints, and attacks that come at the opponent from all directions, confusing and disorienting him. You may perform the Feint Maneuver for only 1 Raise, and your damage bonus from a successful Feint is not limited to your Insight Rank x 5."
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Ashigaru or Light Armor","Sturdy Clothing","Daisho","Bow (with 20 arrows) or Knife","Traveling Pack"]
+  },
+  "imperial_seppun_guardsman_school": {
+    "name": "Seppun Guardsman School",
+    "traits": ["perception"],
+    "honor": 6.5,
+    "tags": ["bushi"],
+    "skills": ["battle","defense","etiquette","iaijutsu","kyujutsu","kenjutsu"],
+    "emphases": [
+      {
+        "skill": "kenjutsu",
+        "emphases": ["Katana"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Never In Darkness",
+        "description": "The Seppun are taught to be unswerving in their Honor, and nothing can draw them away from their duty. Any time you are rolling to resist a Social Skill roll which could tempt or lead you away from your duty - such as Temptation, Intimidation, or even Courtier - you roll additional unkept dice equal to your School Rank. You gain a +1k1 bonus any time you are making an Investigation roll to detect an ambush or surprise attack."
+      },
+      "2": {
+        "name": "The Clouds Part",
+        "description": "The Seppun's blows are infused with his dedication to the Emperor's cause. At the start of your Turn, you may spend a Void Point to add your Honor Rank to the total of your attack and damage rolls until your Next Turn."
+      },
+      "3": {
+        "name": "Sun'S Light Reveals",
+        "description": "The Seppun's dedication now allows him to see through all manner of deceptions, even magical ones. At any time you may choose to spend a Void point as a Free Action to roll Investigation (Notice) / Perception at TN 25. With a success, you immediately see through all disguises and illusions around you, whether normal or magical in nature. If you are in the presence of the Emperor, his immediate family, or a major Imperial Official (Chancellor, Shogun, etc) you do not need to spend a Void Point to activate this Technique. Once you have pierced a specific disguise/illusion, it no longer has any effect on you (although a new disguise or illusion you encounter later will function normally)."
+      },
+      "4": {
+        "name": "Speed Of Heaven",
+        "description": "The power of Heaven infuses the Seppun's arm, allowing him to strike with greater speed. You may now attack as a Simple Action when using weapons with the Samurai keyword."
+      },
+      "5": {
+        "name": "Heaven Never Falls",
+        "description": "The true Seppun bodyguard is never caught off-guard, and can protect his charge even when surprised or disabled. Any time you are within 20' of a person you are guarding, you may spend a Void Point to leap in front of a blow or spell which is targeting your charge. The damage is automatically applied to you instead of your charge. If you are still standing (not Down or Out) after this damage, you may immediately take an extra Simple Action, which may be used for any purpose including an attack. This Technique can be used even if your character is Blinded, Prone, Stunned, Dazed, Entangled, or at the Down Wound Rank (but not Grappled or at the Out Wound Rank)."
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light Armor","Sturdy Clothing","Daisho","any 1 Weapon","Traveling Pack"]
+  },
+  "imperial_seppun_shugenja_school": {
+    "name": "Seppun Shugenja School",
+    "traits": ["intelligence"],
+    "affinities": ["fire"],
+    "deficiencies": ["water"],
+    "honor": 6.5,
+    "tags": ["shugenja"],
+    "skills": ["calligraphy","defense","etiquette","lore_theology","meditation","investigation"],
+    "emphases": [
+      {
+        "skill": "investigation",
+        "emphases": ["Notice"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high","bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "In Defense of the Throne",
+        "description": "The Hidden Guard exist only to defend their Emperor, and are terrible opponents for any who might pose a danger to the sanctity of the Son of Heaven. You gain a Free Raise on any spell cast to protect the life, personal belongings, family, or reputation of the Emperor, as long as the action taken would not cause you to lose Honor. This includes members of the Imperial families (though not yourself). You also gain a Free Raise on any spells known only to the Imperial families.\nSpells: Sense, Commune, Summon, 3 Fire, 2 Water, and 1 Air"
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Robes","Wakizashi","Bo","Scroll Satchel","Traveling Pack"]
+  },
+  "imperial_otomo_courtier_school": {
+    "name": "Otomo Courtier School",
+    "traits": ["awareness"],
+    "honor": 5.5,
+    "tags": ["courtier"],
+    "skills": ["defense","etiquette","investigation","sincerity","courtier","intimidation"],
+    "emphases": [
+      {
+        "skill": "courtier",
+        "emphases": ["Manipulation"]
+      },
+      {
+        "skill": "intimidation",
+        "emphases": ["Control"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Voice Of Heaven",
+        "description": "The Otomo believe that nothing done in the name of the Emperor and Imperial authority can ever be truly dishonorable. Their appointed role within the Empire is to spread conflict between the clans so they cannot unite against Imperial power, and the Otomo do this without hesitation. You do not lose Honor for using the Intimidation (Control) Skill. Any time you are in conversation with someone from one of the clans (Great or Minor), you may make a Contested Roll of your Courtier (Manipulation) / Awareness against their Etiquette (Courtesy) / Awareness to provoke a disagreement or argument between them and someone from another clan or faction of your choice."
+      },
+      "2": {
+        "name": "Destiny Has No Secrets",
+        "description": "The Otmo have information networks that rival those of the Scorpion, and can call on them in almost any part of the Empire. If you have the opportunity to seek out your contacts, you may spend a Void Point to roll Courtier / Awareness at TN 25 to learn one piece of critically useful information (chosen by the GM)."
+      },
+      "3": {
+        "name": "My Master's Voice",
+        "description": "The Otomo speak with the direct authority of the Emperor, and the more experienced among them have mastered the art of \"obiesaseru\", using the authority of the Son of Heaven to stun their foes. You may only use this Technique against honorable samurai (Honor Rank 1.0 or better) who revere the Emperor - criminals, bandits, the Lost, and nonhumans are immune to its effects. To use obiesaseru, you must take a Complex Action to pause, gather your willpoewr, and shout an appropriate command (typically something like, \"Stop in the name of the Emperor!\"). You make a Contested Social Skill roll of Intimidation (Control) / Willpower against the target's Etiquette (Courtesy) / Willpower. (If the target sincerely believes he is acting honorably, he gains a Free Raise to his roll.) If you win the roll, on his next Turn the target may not move, attack, cast spells, or perform any other action that would directly obstruct or threaten you or your immediate friends/allies (GM's discretion as to who is considered your ally). He may, however, attack others who are not your allies, and regardless he can always use the Defense and full Defense Postures."
+      },
+      "4": {
+        "name": "The Emperor'S Protection",
+        "description": "As a favored servant of Imperial power, the Otomo is under special protection , and can easily crush those foolish enough to disagree with him in public. Any time you are in an argument or debate with another person, you may spend a Void Point to make a Contested Roll of your Courtier (Manipulation) / Awareness against their Etiquette (Courtesy) / Awareness. If you win the roll, they must either agree with your position or immediately lose 5 points of Honor."
+      },
+      "5": {
+        "name": "The Virtues Of Command",
+        "description": "The Otomo is now able to bring the full power of Imperial authority to bear on those who displease him. When making an Contested Social Roll against someone who reveres Imperial authority, you may gain a +5k0 bonus on your roll."
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Traditional Clothing","Wakizashi","Knife","Calligraphy Set"]
+  },
+  "imperial_miya_herald_school": {
+    "name": "Miya Herald School",
+    "traits": ["awareness"],
+    "honor": 6.5,
+    "tags": ["courtier"],
+    "skills": ["defense","horsemanship","lore_heraldry","sincerity","courtier","etiquette"],
+    "emphases": [
+      {
+        "skill": "courtier",
+        "emphases": ["Rhetoric"]
+      },
+      {
+        "skill": "etiquette",
+        "emphases": ["Courtesy"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high","bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Voice Of The Emperor",
+        "description": "The Miya learn the ways of the Empire, so they can spread the word of the Emperor far and wide, and the art of non-aggression, so their words will be heard by all who respect the Emperor. While inside the borders of the Empire, you may spend a Void Point to gain the Way of the Land Advantage for the province you currently occupy - this effect lasts until you next sleep. Also, any Rokugani who reveres the Emperor and who knowingly and deliberately attacks you will automatically lose a number of points of Honor equal to twice your School Rank."
+      },
+      "2": {
+        "name": "Eyes Of The Emperor",
+        "description": "The Miya serve as peacekeepers as well as messengers, brokering treaties between warring factions in the Empire, and learn to remain impartial under the most intense pressure. You may add your Honor Rank to all Etiquette (Courtesy) skill rolls made to resist others' attempts to influence you."
+      },
+      "3": {
+        "name": "Hand Of The Emperor",
+        "description": "The Miya's aura of peacefulness and non-aggression has now reached the point where it becomes difficult for honorable foes to attack him at all. At the start of a skirmish, or during the Reactions Step of any later round in a skirmish, you may spend a Void Point as a Free Action to prevent any Rokugani who reveres the Emperor from being able to harm you before the next Reactions step. (They can still attempt to capture or restrain you in a non-damaging way.) This Technique only takes effect as long as the Miya is not participating in the skirmish or in a duel."
+      },
+      "4": {
+        "name": "Blessings Of The Emperor",
+        "description": "At this rank, the Miya have developed a personality strong enough to impose their demand for peace on the more violent individuals around them, in what is essentially a specialized form of the Otomo technique of obiesaseru. This may be done a number of times per session equal to your School Rank, but you may only use this Technique against honorable samurai (Honor Rank 1.0 or better) who revere the Emperor - criminals, bandits, the Lost, and nonhumans are immune to its effects. To use this Technique, you take a Complex Action to step forward and forcefully demand an end to violence. (\"This brawling will cease, in the name of the Emperor!\") You make a Contested Roll of your Courtier (Rhetoric) / Awareness against the Etiquette (Courtesy) / Willpower of all affected person within hearing. All individuals who lose the roll must immediately cease all aggressive action, and cannot attack or cast offensive spells until they take damage or you give them permission to fight. (They can still use defensive abilities and the Defense and Full Defense stances.) The effect lasts for one minute, and the Technique can be used on the same targets again if it is resisted or expires. This Techniques affects both enemies and allies."
+      },
+      "5": {
+        "name": "Glory Of The Emperor",
+        "description": "The Herald is now a true master of non-aggression and diplomacy. When rolling with the Courtier or Etiquette skills against a target with at least Honor 1.0, you may add a +5k0 bonus to the roll."
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Sensible Clothing","Wakizashi","Calligraphy Set","Horse (Rokugani pony)"]
+  },
+  "lion_akodo_bushi_school": {
+    "name": "Akodo Bushi School",
+    "traits": ["perception"],
+    "honor": 6.5,
+    "tags": ["bushi"],
+    "skills": ["defense","kenjutsu","kyujutsu","lore_history","sincerity","battle"],
+    "emphases": [
+      {
+        "skill": "battle",
+        "emphases": ["Mass Combat"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei","high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Way Of The Lion",
+        "description": "Bushi of the Akodo School hone their fury until it is as precise as a blade. You may either ignore the portion of an opponent's Armor TN derived from Armor, or gain a Free Raise when attacking. (You do not ignore Reduction from the Armor when choosing the first option.) Also, you gain a bonus of +1k0 to the total of all attack rolls on your first melee attack against an opponent in a skirmish, or against any opponent who has declared a Raise on an attack against you since your last turn. You add only a total of 1k0 for an enemy who Raises against you, no matter how many times they actually Raised."
+      },
+      "2": {
+        "name": "Strength Of Purity",
+        "description": "Akodo-trained warriors are known for their dedication to bushido, and take a fierce satisfaction in defeating dishonorable foes. During a skirmish you may add your Honor Rank to the total of any single roll during your Turn. You may not increase damage rolls in this fashion, nor can you do this while assuming the Center Stance."
+      },
+      "3": {
+        "name": "Strength Of My Ancestors",
+        "description": "The Akodo bushi attacks twice, once for himself and once for his ancestor. You may make attacks as a Simple Action instead of a Complex Action while using weapons with the Samurai keyword."
+      },
+      "4": {
+        "name": "Triumph Before Battle",
+        "description": "No foe is beyond the reach of the devoted Lion warrior. Once per skirmish, you may designate an opponent durin the Reactions Stage. You may ignore any Armor TN bonuses your target receives from his Stance during the next Round."
+      },
+      "5": {
+        "name": "Akodo's Final Lesson",
+        "description": "Mastery of the Akodo Bushi School imparts an unshakable faith in victory. When you make Raises on any Bugei Skill Roll, if you meet or exceed the original TN (before Raises) but fail to meet the Raised TN, you still succeed without the benefits of Raises."
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light Armor","Sturdy Clothing","Daisho","any 1 weapon","Traveling Pack"]
+  },
+  "lion_kitsu_shugenja_school": {
+    "name": "Kitsu Shugenja School",
+    "traits": ["perception"],
+    "affinities": ["water"],
+    "deficiencies": ["fire"],
+    "honor": 6.5,
+    "tags": ["shugenja"],
+    "skills": ["battle","etiquette","lore_history","lore_theology","spellcraft","calligraphy"],
+    "emphases": [
+      {
+        "skill": "calligraphy",
+        "emphases": ["Cipher"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high","bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Eyes of the Ancestors",
+        "description": "The Kitsu are descended from mystical creatures, and as such are able to reach across the veil between worlds and speak with their ancestors. You may make a Spell Casting Roll (as though casting a Water Spell) against a target's Willpower x 5. If successful, you learn all Spiritual Advantages or Disadvantages that individual possesses. By spending a Void Point, you may negate any one Spiritual Advantage an opponent possesses for a number of minutes equal to your School Rank. You also gain a Free Raise on any spell with the Battle keyword.\nSpells: Sense, Commune, Summon, 3 Water, 2 Air, and 1 Earth"
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Robes","Wakizashi","Knife","Scroll Satchel","Traveling Pack"]
+  },
+  "lion_ikoma_bard_school": {
+    "name": "Ikoma Bard School",
+    "traits": ["intelligence"],
+    "honor": 6.5,
+    "tags": ["courtier"],
+    "skills": ["courtier","etiquette","perform_storytelling","lore_history","sincerity"],
+    "emphases": [
+      {
+        "skill": "lore_history",
+        "emphases": ["Lion Clan"]
+      },
+      {
+        "skill": "sincerity",
+        "emphases": ["Honesty"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei"],
+        "ranks": 1
+      },
+      {
+        "tags": ["high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Herald Of Glory",
+        "description": "The Ikoma are historians and storytellers, tasked with recording the glorious deeds of others for posterity, ensuring that courageous and honorable accomplishments are never forgotten. You gain the Precise Memory Advantage for no cost in Experience Points (if you already have Percise Memory, you are refunded that many Experience Points). You may use the Perform: Storytelling skill to engage in public bragging on behalf of another person. If you can cite heroic or noble actions by that person and successfully roll Perform: Storytelling / Awareness at TN 20, that person whill gain a number of points of Glory equal to your School Rank. This may be done a number of times per person per month equal to your School Rank."
+      },
+      "2": {
+        "name": "The Heart Of The Lion",
+        "description": "The Ikoma are tasked with conveying the emotions which the rest of the Clan keeps bottled away in stoic rectitude. You do not lose Honor or Glory for displaying emotion in public, so long as you do so on behalf of another Lion or for an honorable cause greater than yourself (such as your clan, the Empire, or the Code of Bushido). At the same time, your understanding of both honor and emotion strengthens your own soul against temptation. Anyone attempting to sway your emotions through the use of the Intimidation or Temptation skills must add +5 to their TN for each of your School Ranks."
+      },
+      "3": {
+        "name": "The Voice Of The Ancestors",
+        "description": "The Ikoma act as Battle-Criers for the Lion, inspiring their soldiers on the battlefield with tales of the heroic deeds of their ancestors. Prior to a battle or skirmish, you may inspire your allies by speaking for a few minutes and rolling Perform: Oratory / Awareness at a TN equal to 15 + 5 per person you are inspiring. Targets who are not members of the Lion Clan increase the TN by 5 for each such person. With a successful roll, each person you inspired may add their Honor Rank to the total of any one Skill Roll during that battle or skirmish. (If this benefit is not used by the end of the battle, it is lost.)"
+      },
+      "4": {
+        "name": "The Strength Of Tradition",
+        "description": "The Ikoma's steadfast encouragement call on the examples of noble ancestors to infuse their allies with a strength they did not know they had. A number of times per session equal to your School Rank, as a Simple Action, you may verbally encourage an ally with a tale of great deeds from the past, rolling Perform: Storytelling / Awareness at TN 25. With a success, the next time during the same day that the chosen ally fails a roll, he may re-roll it, adding your Honor Rank in unkept dice to his roll. However, if he fails this second roll, you lose 2 points of Honor."
+      },
+      "5": {
+        "name": "Every Lion Is Your Brother",
+        "description": "The Ikoma's understanding of Bushido, history, emotion, and human nature empowers them in court, filling their arguments with the ringing power of generations of noble Lion, and calling on the precedents of a thousand years and more to support their cause. Five times per session, when you are making a Contested Social Roll against an opponent, you may cite historical precedent to support your views and roll additional unkept dice equal to your Rank in Perform: Storytelling. (In situations where citing history seems inappropriate or strange, the GM has the final say on whether this Technique may be used.)"
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Traditional Clothing","Wakizashi","Knife","Calligraphy Set","Traveling Pack"]
+  },
+  "lion_matsu_berserker_school": {
+    "name": "Matsu Berserker School",
+    "traits": ["strength"],
+    "honor": 6.5,
+    "tags": ["bushi"],
+    "skills": ["battle","jiujutsu","kyujutsu","lore_history","kenjutsu"],
+    "emphases": [
+      {
+        "skill": "kenjutsu",
+        "emphases": ["Katana"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei"],
+        "ranks": 1
+      },
+      {
+        "tags": ["bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Lion's Roar",
+        "description": "Warriors of the Matsu School respect their Akodo cousins' leadership skills, but they know that a furious attack often simply overwhelms an enemy. You add your Honor Rank to all damage rolls. Whenever you assume the Full Attack Stance, you may move an additional 5 feet per Turn in addition to the bonus your receive from the Stance. (This does not allow you to move farther than your maximum move per Turn.)"
+      },
+      "2": {
+        "name": "Matsu's Fury",
+        "description": "The target of a Matsu's fury has little hope of victory. When you assume the Full Attack Stance, choose an opponent within 30'. If you successfully hit him this Turn, the target is frozen with fear and cannot take Move Actions to move from his current position. During the Reactions Stage, an affected opponent may attempt a Willpower roll against a TN equal to the amount of damage dealt from your latest attack to negate the effects of this Technique (the opponent does not suffer penalties from his Wound Rank for this roll). If he fails, the effects of this Technique end during the next Reactions Stage (the second after he was struck). Enemies who are immune to Fear cannot be affected by this Technique."
+      },
+      "3": {
+        "name": "The Lion's Charge",
+        "description": "When a Lion strikes, he grants the gift of final rest to all who stand against him. You may make melee attacks as a Simple Action instead of a Complex Action."
+      },
+      "4": {
+        "name": "Matsu's Courage",
+        "description": "Death means nothing in the face of the loss of honor, and no Matsu will yield while he yet draws breath. You ignore TN penalties from Wounded Levels equal to your Honor Rank, or twice your Honor Rank while in the Full Attack Stance."
+      },
+      "5": {
+        "name": "The Lion's Victory",
+        "description": "The death of an opponent is the only measure of victory for a Matsu. Once per encounter after you roll damage for an attack, you may spend a Void Point as a Free Action to activate this Technique. You rend the opponent, ripping open his wounds and dealing grievous injury to him. All of the dice you choose to keep explode, re-rolling and adding the result to your damage total."
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light or Heavy Armor","Sturdy Clothing","Daisho","Heavy Weapon or Polearm","Traveling Pack"]
+  },
+  "mantis_yoritomo_bushi_school": {
+    "name": "Yoritomo Bushi School",
+    "traits": ["strength"],
+    "honor": 3.5,
+    "tags": ["bushi"],
+    "skills": ["commerce","defense","kenjutsu","sailing","jiujutsu","knives"],
+    "emphases": [
+      {
+        "skill": "jiujutsu",
+        "emphases": ["Improvised Weapons"]
+      },
+      {
+        "skill": "knives",
+        "emphases": ["Kama"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Way Of The Mantis",
+        "description": "Mantis bushi learn to fight on the pitching decks of ships and to use anything within reach as a weapon. You suffer no penalties to movement or attacks for rough or uneven terrain. You do not lose Glory or Honor when using improvised weapons, or weapons with the Peasant keyword, in combat. You suffer no penalties for fighting with a Small or Medium weapon in your off-hand if that weapon has the Peasant keyword. finally, you gain a bonus of +1k0 to all attack rolls."
+      },
+      "2": {
+        "name": "Voice Of The Storm",
+        "description": "Your wild, unfettered attacks disorient your opponent and opens holes in his defenses. Every time you hit an opponent in melee, his Armor TN is reduced by 5. This penalty only applies to your attacks, and lasts for 2 Rounds. This Technique is cumulative (a number of times equal to your School Rank), and the duration resets with each application."
+      },
+      "3": {
+        "name": "Strike Of The Mantis",
+        "description": "A Yoritomo strikes as swiftly as the storm. You may make attacks as a Simple Action instead of a Complex Action while using weapons with the Samurai or Peasant keyword."
+      },
+      "4": {
+        "name": "The Rolling Wave",
+        "description": "The Yoritomo Bushi reacts with the flow of combat, deftly dodging blows while reaching his target. If you move at least 5 feet, you gain a bonus of +10 to your Armor TN until your next Turn. You may sacrifice this bonus during your Turn before you roll any attack to gain two Free Raises that may only be used to perform the Knockdown Maneuver."
+      },
+      "5": {
+        "name": "Hand Of Osano-Wo",
+        "description": "The Yoritomo Bushi strikes with brutal force, digging his weapons deep into his target. You may choose to activate this Technique by spending a Void Point as a Free Action. You keep an additional number of damage dice equal to your Strength. If these attacks hit a Prone target, you gain a bonus of +0k2 to the total of your damage rolls against that target."
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light Armor","Sturdy Clothing","Daisho","any 1 weapon (or pair of Knives)","Traveling Pack"]
+  },
+  "mantis_moshi_shugenja_school": {
+    "name": "Moshi Shugenja School",
+    "traits": ["awareness"],
+    "affinities": ["air"],
+    "deficiencies": ["earth"],
+    "honor": 4.5,
+    "tags": ["shugenja"],
+    "skills": ["divination","lore_theology","meditation","spellcraft","calligraphy"],
+    "emphases": [
+      {
+        "skill": "calligraphy",
+        "emphases": ["Cipher"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high","bugei"],
+        "ranks": 1
+      },
+      {
+        "tags": ["high","bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Favor of the Sun",
+        "description": "No family has been more reverent of the various incarnations of the Sun throughout their history, and their piety has granted them great favor with the Heavens. During the day, you gain an additional Affinity for Fire spells. This benefit is lost at night. You also gain a Free Raise on any spell with the Thunder keyword.\nSpells: Sense, Commune, Summon, 3 Air and 3 Fire spells"
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Robes","Wakizashi","Knife","Scroll Satchel","Traveling Pack"]
+  },
+  "mantis_yoritomo_courtier_school": {
+    "name": "Yoritomo Courtier School",
+    "traits": ["willpower"],
+    "honor": 2.5,
+    "tags": ["courtier"],
+    "skills": ["courtier","defense","etiquette","sincerity","commerce","intimidation"],
+    "emphases": [
+      {
+        "skill": "commerce",
+        "emphases": ["Appraisal"]
+      },
+      {
+        "skill": "intimidation",
+        "emphases": ["Control"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["merchant","lore"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Duty Before Honor",
+        "description": "Like the Yasuki, the Mantis Courtiers are merchants as well as diplomats, and they cultivate a personal style built around intimidation rather than friendship. Futhermore, they spend much of their lives outside of the courts dealing with some of the more unsavory characters in Rokugan. You do not lose Glory or Honor for using the Commerce Skill in public, and you do not lose Honor for using the Intimidation (Control) skill. Any time you are making Social Skill Rolls against ronin, bandits, gang members, mercenaries, pirates, and other lawless types, you gain a number of Free Raises equal to your School Rank."
+      },
+      "2": {
+        "name": "Storm Heart",
+        "description": "When the time comes to act in courts, the Yoritomo eschew the eloquent words of the Doji or the subtle gibes of the Scorpion in favor of straightforward bullying, browbeating friend and foe alike into accepting their position. When you use the Intimidation (Control) Skill, your Willpower is considered to be one Rank higher. When you use the Intimidation (Control) skill against a samurai with lower Status Rank than you, your Willpower is considered two Ranks higher instead."
+      },
+      "3": {
+        "name": "Command The Winds",
+        "description": "The Mantis are taugh to put the force of their boorish and aggressive behavior behind their words in court, making it difficult to tell whether they are lying or telling the truth. A number of times per session equal to your School rank, if you have failed a Sincerity Social Skill Roll, you may re-roll it as an Intimidation (Control) Social Skill Roll instead. You must take the result of the Intimidation roll."
+      },
+      "4": {
+        "name": "Will Of The Storm",
+        "description": "An experienced Mantis has learned to shatter and demoralize his opponents in court with his mere presence. When initiating a conversation with someone, you may make a Contested roll of your Intimidation (Control) / Willpower against his Etiquette (Courtesy) / Willpower. If you win the roll, he cannot spend any Void points against you for the next hour. Also, during that time he suffers a -3k0 penalty to all Social Rolls made against you. (This Technique cannot be used again until its effect expires.)"
+      },
+      "5": {
+        "name": "Strength In All Things",
+        "description": "At this Rank the Mantis courtier's iron willpower and threatening nature have reached perfection, allowing him to overcome all foes and to laugh in th eface of threats that would make even a Hida bushi turn pale. Any time you are attempting to use the Intimidation skill against someone else, or are rolling to resist an Intimidation or Temptation Skill roll or a Fear effect, you gain a bonus of +5k0 to the roll."
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Extravagant Clothing","Wakizashi","any 1 weapon","Calligraphy Set","Traveling Pack"]
+  },
+  "mantis_tsuruchi_archer_school": {
+    "name": "Tsuruchi Archer School",
+    "traits": ["reflexes"],
+    "honor": 3.5,
+    "tags": ["bushi"],
+    "skills": ["athletics","defense","hunting","investigation","kyujutsu","kyujutsu"],
+    "emphases": [
+      {
+        "skill": "kyujutsu",
+        "emphases": ["Yumi"]
+      },
+      {
+        "skill": "kyujutsu",
+        "emphases": ["Yumi"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high","bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Always Be Ready",
+        "description": "The Tsuruchi Archer must be prepared to fight against his foes with little warning. You gain a bonus of +1k0 to the total of all attack rolls using a bow. Additionally, you gain a bonus of +3 to your Initiative Score."
+      },
+      "2": {
+        "name": "The Arrow Knows The Way",
+        "description": "A Tsuruchi must not aim, but simply allow the arrow to follow its own path. You gain one Free Raise that can only be used to make the Called Shot Maneuver. Additionally, you gain a bonus of +2k0 to the total of all damage rolls while using a bow."
+      },
+      "3": {
+        "name": "The Wasp's Sting",
+        "description": "Tsuruchi's technique teaches its students uncanny speed. You may make attacks as a Simple Action instead of a Complex Action when using a bow."
+      },
+      "4": {
+        "name": "Flight Of No-Mind",
+        "description": "The true archer does not concern himself with the arrow, but exists only to loose it. Once per skirmish, you may spend a Void Point as a Complex Action to shoot an arrow that knows exactly where it must go. This attack ignores all effects of armor, as well as any penalties from Wound Ranks or visibility. You may make Raises but you cannot perform the Extra Attack Maneuver for this attack. You may not shoot a target that is further than your bow's normal range with this Technique."
+      },
+      "5": {
+        "name": "Tsuruchi's Eye",
+        "description": "The final lesson of Tsuruchi is that there is nothing that cannot be felled by a single arrow. You may make a ranged attack as a Complex Action to gain a bonus of +4k1 to the total of both attack and damage rolls. You may not use this Technique in conjunction with Flight of No-Mind."
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Ashigaru or Light Armor","Sturdy Clothing","Bow and 20 arrows","Wakizashi","Traveling Pack"]
+  },
+  "mantis_kitsune_shugenja_school": {
+    "name": "Kitsune Shugenja School",
+    "traits": ["stamina"],
+    "affinities": ["earth"],
+    "deficiencies": ["air"],
+    "honor": 4.5,
+    "tags": ["shugenja"],
+    "skills": ["calligraphy","defense","hunting","meditation","spellcraft","medicine"],
+    "emphases": [
+      {
+        "skill": "medicine",
+        "emphases": ["Herbalism"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high","bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Essence Of Chikushudo",
+        "description": " None in the Empire are closer to the ways of nature than the simple Kitsune who make the wilderness their home. You may use the Sense, Commune, and summon basic spells to affect the animal spirits of Chikushudo as well as kami (using Summon results in the appearance of a single animal spirit rather than a set amount of the elemental material). Animal spirits tend to be more direct than kami, and perceive things differently, but have just as little sense of why man does what he does. You gain a Free Raise on any nonSpells: Sense, Commune, Summon, 3 Earth, 2 Water, and 1 Fire"
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Robes","Wakizashi","Knife","Scroll Satchel","Traveling Pack"]
+  },
+  "monkey_toku_bushi_school": {
+    "name": "Toku Bushi School",
+    "traits": ["willpower"],
+    "honor": 5.5,
+    "tags": ["bushi"],
+    "skills": ["athletics","defense","hunting","kenjutsu","lore_history","investigation"],
+    "emphases": [
+      {
+        "skill": "investigation",
+        "emphases": ["Search"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei","high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Toku's Lesson",
+        "description": "A Monkey Bushi will prevail, even in the face of the most difficult odds. You add +1k0 to all Skill Rolls with a TN of 25 or higher. (This includes attack rolls.) Additionally, all your Wound Penalties are reduced by an amount equal to your Willpower plus double your School Rank."
+      },
+      "2": {
+        "name": "The Strength Of One Man",
+        "description": "As a member of a very small Minor Clan, the Toku bushi is accustomed to fighting against the odds. While facing multiple opponents or an enemy with a higher Insight Rank, you add +1k1 to your attack and damage rolls."
+      },
+      "3": {
+        "name": "Courage Above All",
+        "description": "The Toku bushi calls on the courage of his Clan's founder to speed his own attacks. You may make melee attacks as a Simple Action instead of a Complex Action."
+      },
+      "4": {
+        "name": "Forge Your Own Fate",
+        "description": "The Toku Bushi learns to dodge the worst of any attack. You may spend a Void Point when suffering Wounds to force your opponent to drop his two highest dice from his damage roll, even if this would reduce the total amount of kept dice. This cannot reduce the damage roll to less than 1k1."
+      },
+      "5": {
+        "name": "Fortune Favors The Mortal Man",
+        "description": "The Toku bushi earns his good blessings with his own sheer tenacity. Once per Round, you may spend a Void Point to reroll any roll. You add +2k1 to the new roll. You may choose to keep the new roll or your original roll."
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light Armor","Sturdy Clothing","Daisho","any 1 Weapon","Traveling Pack"]
+  },
+  "monks_four_temples_monk_school": {
+    "name": "Four Temples Monk School",
+    "traits": ["awareness"],
+    "honor": 6.5,
+    "devotion": "Shintao",
+    "tags": ["monk","monks_monk","brotherhood"],
+    "skills": ["courtier","etiquette","jiujutsu","meditation","lore_theology"],
+    "emphases": [
+      {
+        "skill": "lore_theology",
+        "emphases": ["Shintao"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      },
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Soul of Civility",
+        "description": "Brothers of the Four Temples are accustomed to interacting with extremely important visitors and receiving invitations to influential courts. When you spend a Void Point to augment a High Skill Roll or a Social Skill Roll, you gain +2k2 instead of the normal +1k1."
+      }
+    },
+    "koku": 0,
+    "bu": 0,
+    "zeni": 2,
+    "outfit": ["Bo (or pair of jo)","Coarse and plain Traveling Clothing","Scroll Satchel with passages from the Tao"]
+  },
+  "monks_order_of_heroes_monk_school": {
+    "name": "Order of Heroes Monk School",
+    "traits": ["perception"],
+    "honor": 4.5,
+    "devotion": "Shintao",
+    "tags": ["monk","monks_monk","brotherhood"],
+    "skills": ["athletics","defense","jiujutsu","lore_theology","meditation"],
+    "emphases": [
+      {
+        "skill": "lore_theology",
+        "emphases": "*any"
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      },
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Destiny's Hand",
+        "description": "The Order’s esoteric methods allow for the passage of chi from a monk to another without diffi culty. You may spend a Void Point as a Free Action to confer a bonus of +1k1 to any one roll this round by an ally who has not yet taken his Turn. You may not enhance a roll that cannot normally benefi t from Void Points (such as a damage roll, for instance)."
+      }
+    },
+    "koku": 0,
+    "bu": 0,
+    "zeni": 2,
+    "outfit": ["Bo (or pair of jo)","Coarse and plain Traveling Clothing","Scroll Satchel with passages from the Tao"]
+  },
+  "shine_of_the_seven_thunders_monk_school": {
+    "name": "The Shrine Of The Seven Thunders Monk",
+    "traits": ["stamina"],
+    "honor": 4.5,
+    "devotion": "Shintao",
+    "tags": ["monk","monks_monk","brotherhood"],
+    "skills": ["athletics","jiujutsu","meditation","lore_theology"],
+    "emphases": [
+      {
+        "skill": "lore_theology",
+        "emphases": ["Shintao"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["lore"],
+        "ranks": 1
+      },
+      {
+        "tags": ["any"],
+        "ranks": 1
+      },
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Walk with the Prophet",
+        "description": "Brothers of this shrine emphasize training in one element over all others. All three of your initial Kiho must be selected from the same element. Your Insight Rank is considered one higher for the purposes of meeting the Mastery Level of Kiho from this element."
+      }
+    },
+    "koku": 0,
+    "bu": 0,
+    "zeni": 2,
+    "outfit": ["Bo (or pair of jo)","Coarse and plain Traveling Clothing","Scroll Satchel with passages from the Tao"]
+  },
+  "temple_of_the_kaimetsu_uo_monk_school": {
+    "name": "The Temple Of Kaimetsu-Uo",
+    "traits": ["willpower"],
+    "honor": 4.5,
+    "devotion": "Fortunist",
+    "tags": ["monk","monks_monk","brotherhood"],
+    "skills": ["defense","jiujutsu","meditation","lore_theology"],
+    "emphases": [
+      {
+        "skill": "lore_theology",
+        "emphases": ["Fortunes"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      },
+      {
+        "tags": ["any"],
+        "ranks": 1
+      },
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Path of Purity",
+        "description": "Your soul dwells in a place of wisdom and serenity, and your ire is diffi cult to arouse under any circumstances. When making a Contested Social Skill Roll initiated by your opponent, you may use any Ring in place of the normal Trait used (typically Awareness) for the purposes of that roll."
+      }
+    },
+    "koku": 0,
+    "bu": 0,
+    "zeni": 2,
+    "outfit": ["Bo (or pair of jo)","Coarse and plain Traveling Clothing","Scroll Satchel with passages from the Tao"]
+  },
+  "monks_the_temple_of_osanowo_monk_school": {
+    "name": "The Temple of Osano-Wo Monk School",
+    "traits": ["strength"],
+    "honor": 4.5,
+    "devotion": "Fortunist",
+    "tags": ["monk","monks_monk","brotherhood"],
+    "skills": ["battle","jiujutsu","jiujutsu","meditation","lore_theology"],
+    "emphases": [
+      {
+        "skill": "lore_theology",
+        "emphases": ["Fortunes"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei"],
+        "ranks": 1
+      },
+      {
+        "tags": ["bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Hand of Thunder",
+        "description": "The emphasis of the Thunderer’s monks on the purity of unarmed combat is obvious to all who encounter them. You gain a +0k1 bonus to all damage rolls stemming from unarmed attacks. This effect is cumulative with any other effects that allow you to roll or keep additional dice on unarmed damage."
+      }
+    },
+    "koku": 0,
+    "bu": 0,
+    "zeni": 2,
+    "outfit": ["Bo (or pair of jo)","Coarse and plain Traveling Clothing","Scroll Satchel with passages from the Tao"]
+  },
+  "monks_the_temples_of_the_thousand_fortunes_monk_school": {
+    "name": "The Temples of the Thousand Fortunes Monk School",
+    "traits": ["agility"],
+    "honor": 4.5,
+    "devotion": "Fortunist",
+    "tags": ["monk","monks_monk","brotherhood"],
+    "skills": ["jiujutsu","lore_history","meditation","lore_theology"],
+    "emphases": [
+      {
+        "skill": "lore_theology",
+        "emphases": ["Fortunes"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      },
+      {
+        "tags": ["any"],
+        "ranks": 1
+      },
+      {
+        "tags": ["lore"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Thousand Forms",
+        "description": "There is no limit to the variety of blessings bestowed upon the loyal members of the Brotherhood by their divine patrons. You begin the game knowing four Kiho, rather than the normal three possessed by all Brotherhood monk characters. These do not count against the additional Kiho you can purchase with Experience Points (which you may do as normal)."
+      }
+    },
+    "koku": 0,
+    "bu": 0,
+    "zeni": 2,
+    "outfit": ["Bo (or pair of jo)","Coarse and plain Traveling Clothing","Scroll Satchel with passages from the Tao"]
+  },
+  "oriole_tsi_smith_school": {
+    "name": "Tsi Smith School",
+    "traits": ["intelligence"],
+    "honor": 4.5,
+    "tags": ["smith"],
+    "skills": ["commerce","defense"],
+    "wildcards": [
+      {
+        "tags": ["artisan"],
+        "ranks": 1
+      },
+      {
+        "tags": ["bugei","high","merchant"],
+        "ranks": 1
+      },
+      {
+        "tags": ["craft"],
+        "ranks": 2
+      },
+      {
+        "tags": ["weapon"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Tools of the Fortunes",
+        "description": "The Tsi Smith dedicates his life to reaching perfection in the heat of the furnace. All Craft Skills are considered School Skills for you for the purpose of effects that target School Skills. Whenever you make a Craft Skill Roll, you gain one point of Glory for succeeding, and one additional point for every increment of 5 by which you exceed the TN. This effect only applies to rolls made against a TN equal to 10 plus your School Rank x 5 or higher."
+      },
+      "2": {
+        "name": "Tsi Xings Guo's Blessing",
+        "description": "The Oriole smith seeks to emulate the works of the Fortune of Steel. When wielding or using one of your own creations (such as a weapon in battle or wearing an elaborate kimono in court), you gain a bonus of +2k1 for Void Points spent on relevant Skill Rolls, rather than the usual +1k1. Additionally, when an item you created is given as a gift among members of the samurai caste, both you and the gift-giver gain Glory equal to your School Rank."
+      },
+      "3": {
+        "name": "A Crafter's Dedication",
+        "description": "A Tsi Smith knows the worth of everything he creates, years after it has left his forge. When crafting, the price of the object you are creating is reduced by half for the purposes of determining how long it takes to create the object in question. When someone in your presence is using an item you created, you may take a Complex Action to grant them a bonus of +xk1, where X is your School Rank, on the relevant Skill Roll (for example, Kenjutsu for a katana, Defense for armor, or Etiquette for a kimono)."
+      },
+      "4": {
+        "name": "Exhaustive Knowledge",
+        "description": "All members of the Tsi smiths are expected to test their own creations for weight, balance, and effectiveness. You may spend a Void Point as a Free Action to allow you to make any attacks with a weapon you created as Simple Actions rather than Complex Actions. This effect lasts for a number of Rounds equal to your School Rank."
+      },
+      "5": {
+        "name": "Star-Filled Steel",
+        "description": "Oriole-made items are rivaled only by the masterful items of the Kaiu Forge. Once per day upon the completion of crafting a weapon, you may spend all your Void Points in order to create a Sacred Weapon (as per the Advantage). this weapon is known as a Tsi Weapon (e.g., a Tsi Blade, Tsi Tetsubo, etc.), and may possess one of the following qualities: Balanced (the wielder gains a bonus of +1k0 on attack rolls made with this weapon), Swift (The wielder gains a bonus of +5 to his Initiative Score while wielding the weapon, or Unbreakable (the weapon may not be broken). At the GM's option, a truly gifted Tsi smith may also be able to make a weapon Radiant (treat the weapon as jade for purposes of harming Invulnerable creatures)."
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Sensible Clothing","Wakizashi","Calligraphy Set","Traveling Pack"]
+  },
+  "phoenix_shiba_bushi_school": {
+    "name": "Shiba Bushi School",
+    "traits": ["agility"],
+    "honor": 5.5,
+    "tags": ["bushi"],
+    "skills": ["defense","kenjutsu","kyujutsu","lore_theology","spears","meditation"],
+    "emphases": [
+      {
+        "skill": "meditation",
+        "emphases": ["Void Recovery"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei","high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Way Of The Phoenix",
+        "description": "Shiba bushi move through battle as the Void moves through all the elements. When spending a Void Point to gain +1k1 on a roll, you may choose to spend 2 Void Points (to gain +2k2) on the roll instead. You may Guard as a Free Action; however, if you do so, your target only adds +5 to his Armor TN instead of +10."
+      },
+      "2": {
+        "name": "Dancing With The Elements",
+        "description": "Shiba bushi become attuned to the shugenja they protect, aiding their spells and deterring those of their enemies. When you assume your Stance for the Round, you may choose a target within 30'. Whenever your target casts or is the target of a spell, you may choose to increase or decrease the TN of the spell by 5. Additionally, whenever you are the target of a spell, you may immediately choose to increase or decrease the TN of the spell by 5."
+      },
+      "3": {
+        "name": "One With The Void",
+        "description": "In battle, the Shiba can find his place in the world. This Technique automatically activates during the Reaction Stafe of Combat if another character spent a Void Point during this Combat Round. You regain a Void Point. This Void Point may exceed your maximum, but all excess Void Points are lost after combat resolves. You do not learn anything regarding the source of the Void Point or how it was originally spent. this Technique only activates twice per skirmish."
+      },
+      "4": {
+        "name": "Move With The World",
+        "description": "Serenity brings certainty, and certainty brings speed. You may make attacks as a Simple Action instead of a Complex Action with using Polearms, Spears, or weapons with the Samurai keyword."
+      },
+      "5": {
+        "name": "Touch Of The Void",
+        "description": "Masters of the Shiba style can draw back the veil and allow the universe to act through them. For every Void Point you spend, you gain the effects of spending two, when applicable. Additionally, you may now spend Void Pionts on enhancements twice in one Turn."
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light Armor","Sturdy Clothing","Daisho","any 1 weapon","Traveling Pack"]
+  },
+  "phoenix_isawa_shugenja_school": {
+    "name": "Isawa Shugenja School",
+    "traits": ["intelligence"],
+    "affinities": ["any"],
+    "honor": 4.5,
+    "tags": ["shugenja"],
+    "skills": ["lore_theology","medicine","meditation","spellcraft","calligraphy"],
+    "emphases": [
+      {
+        "skill": "calligraphy",
+        "emphases": ["Cipher"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high"],
+        "ranks": 1
+      },
+      {
+        "tags": ["lore"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Isawa's Gift",
+        "description": "There are no greater masters of the shugenja tradition than those among the Isawa. You gain a Free Raise on all Spell Casting Rolls for spells of the element which you chose as your Affinity. Spells: Sense, Commune, Summon, 3 spells of any one element, 2 spells of any other element, 1 spell of a third element, and 1 spell of a fourth element."
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Robes","Wakizashi","any 1 weapon","Scroll Satchel","Traveling Pack"]
+  },
+  "phoenix_asako_loremaster_school": {
+    "name": "Asako Loremaster School",
+    "traits": ["intelligence"],
+    "honor": 6.5,
+    "tags": ["courtier"],
+    "skills": ["courtier","lore_history","meditation","sincerity","etiquette","lore_theology"],
+    "emphases": [
+      {
+        "skill": "etiquette",
+        "emphases": ["Courtesy"]
+      },
+      {
+        "skill": "lore_theology",
+        "emphases": ["Fortunes"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["lore"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Temple Of The Soul",
+        "description": "The Asako are historians and scholars, and their studies are broader than those of any others in the Empire. They pride themselves on the depth of their knowledge in all fields of intellectual endeavor. They also share the Phoenix devotion to peace and civility, relying on genteel discourse to resolve problems. You gain a Free Raise on any Skill Roll with a Lore Skill. Any time you spend a Void Point on an Etiquette Skill Roll, you gain a bonus of +3k1 to the total of the roll instead of the normal +1k1."
+      },
+      "2": {
+        "name": "From The Ashes",
+        "description": "The Asako Loremasters' in-depty study of historical events allows them to detect subtle patterns in behavior in every court, patterns invisible to their more worldly rivals from the other Clans. After spending at least one day observing the events in a particular court, you can roll Lore: History / Perception at TN 20 to gain a bonus +2k0 to the total of all your Social Skill Rolls for the next two days, so long as your remain in that court. (This Technique's effect can be re-activated with another skill roll when it expires - it is not necessary to spend additional days observing so long as you remain in the same court.)"
+      },
+      "3": {
+        "name": "Voice Of The Universe",
+        "description": "As the Asako's training progresses, his recall of obscure historical facts allows him to provide useful contemporary advice to his allies. You may spend an hour conversing with a friend or ally and then roll Lore: History / Intelligence at TN 25. With a success, that ally may add your Lore: History Skill Rank to the total of any Social Skill Rolls he makes within the next twenty-four hours. You may Raise twice to affect one (and only one) additional ally, provided that ally also participates in the conversation. (This Technique cannot be used on the same person again until its effect expires.)"
+      },
+      "4": {
+        "name": "Invincible Mind",
+        "description": "The enlightened and educated Asako can see through the games, tricks, and deceits of the material world. Any time you fail a Contested Social Skill Roll to resist someoen trying to influence your emotions, opinions, or behavior (such as with the Courtier, Temptation, or Intimidation skills), you may re-roll using Intelligence as the Trait for the second roll in place of whichever Trait was originally required. You must keep the result of the second roll. This Technique cannot be used to resist Fear."
+      },
+      "5": {
+        "name": "Wisdom Of The Ages",
+        "description": "At this rank, the Asako truly demonstrate that the wisdom of the Phoenix is eternal. Any time you are rolling a Lore Skill, including for your other School Techniques, you gain a +5k0 bonus to the total of the roll."
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Sensible Clothing","Wakizashi","Calligraphy Set","Traveling Pack"]
+  },
+  "phoenix_agasha_shugenja_school": {
+    "name": "Agasha Shugenja School",
+    "traits": ["intelligence"],
+    "affinities": ["fire"],
+    "deficiencies": ["water"],
+    "honor": 4.5,
+    "tags": ["shugenja"],
+    "skills": ["defense","etiquette","lore_theology","spellcraft","calligraphy"],
+    "emphases": [
+      {
+        "skill": "calligraphy",
+        "emphases": ["Cipher"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["craft"],
+        "ranks": 1
+      },
+      {
+        "tags": ["high","bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Elements of All Thing",
+        "description": "The Agasha understand the interactions of the elements more so than perhaps any other family. When casting a spell, you may spend a Void Point to use a different Ring of your choosing rather than the appropriate Ring for that spell. this spell uses a spell slot for the Ring used to actuall cast the spell. You also gain a Free Raise on any spell with the Craft keyword."
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Robes","Wakizashi","any 1 weapon","Scroll Satchel","Traveling Pack"]
+  },
+  "scorpion_bayushi_bushi_school": {
+    "name": "Bayushi Bushi School",
+    "traits": ["intelligence"],
+    "honor": 2.5,
+    "tags": ["bushi"],
+    "skills": ["defense","etiquette","iaijutsu","kenjutsu","sincerity","courtier"],
+    "emphases": [
+      {
+        "skill": "courtier",
+        "emphases": ["Manipulation"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Way Of The Scorpion",
+        "description": "Scorpion bushi always seem to get the jump on opponents. You gain a bonus +1k1 to your Initiative Rolls. You also gain a bonus of +5 to your Armor TN against any opponent with lower Initiative."
+      },
+      "2": {
+        "name": "Pincers And Tail",
+        "description": "The infamous Scorpion feint has been the demise of many foolhardly samurai. You may make the Feint Maneuver for one Raise instead of two."
+      },
+      "3": {
+        "name": "Strike At The Tail",
+        "description": "Scorpion bushi strive to keep their enemies off guard, stopping their attacks and slowing them down. When you assume a Stance at the start of your Turn, you may choose a target within 30'. If you successfully hit him during your Turn, the target is Fatigued as if he had gone without rest for 24 hours. During the Reaction Stage, an affected opponent may attempt an Earth Ring roll against a TN of 25 to negate the effects of this Technique. If he fails, the effects of this Technique end during the next Reactions Stage (the second Reactions Stage after he was struck)."
+      },
+      "4": {
+        "name": "Strike From Above, Strike From Below",
+        "description": "The swiftness of the Scorpion allows him to cut down foes before they realize they have been attacked. You may make melee attacks as a Simple Action instead of a Complex Action."
+      },
+      "5": {
+        "name": "The Pincers Hold, The Tail Strikes",
+        "description": "Striking an opponent's weakest point is the Scorpion's true path to victory. Once per encounter, you may spend a Void Point as a Complex Action to attack your opponent with a melee weapon. If the attack is successful, the target is Stunned. During the Reactions Stage, an affected opponent may attempt an Earth Ring roll against at TN equal to the amount of damage dealt to end the Stun effect. If he fails or does not attempt this roll, the Stun effect ends during the next Reactions Stage (the second Reaction Stage after he was struck)."
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light Armor","Sturdy Clothing","Daisho","any 1 weapon","Traveling Pack"]
+  },
+  "scorpion_soshi_shugenja_school": {
+    "name": "Soshi Shugenja School",
+    "traits": ["awareness"],
+    "affinities": ["air"],
+    "deficiencies": ["earth"],
+    "honor": 2.5,
+    "tags": ["shugenja"],
+    "skills": ["courtier","etiquette","lore_theology","spellcraft","stealth","calligraphy"],
+    "emphases": [
+      {
+        "skill": "calligraphy",
+        "emphases": ["Cipher"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Kami's Whisper",
+        "description": "The Soshi cast their spells as quietly as the kami themselves. You may sacrifice an additional spell slot (of the same Element) when casting any spell with no potential to inflict damage in order to eliminate all visible signs of the spell having been cast. All spell effects take place normally; there is simply no outward sign of what has happened. You also gain a Free Raise on any spell with the Illusion keyword. Spells: Sense, Commune, Summon, 3 Air, 2 Fire, and 1 Water"
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Robes","Wakizashi","Knife","Scroll Satchel","Traveling Pack"]
+  },
+  "scorpion_bayushi_courtier_school": {
+    "name": "Bayushi Courtier School",
+    "traits": ["awareness"],
+    "honor": 2.5,
+    "tags": ["courtier"],
+    "skills": ["calligraphy","etiquette","investigation","temptation","courtier","sincerity"],
+    "emphases": [
+      {
+        "skill": "courtier",
+        "emphases": ["Gossip"]
+      },
+      {
+        "skill": "sincerity",
+        "emphases": ["Deceit"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Weakness Is My Strength",
+        "description": "The Bayushi are masters of ferreting out and exploiting the weaknesses and failures of others. Even if they do not know the exact nature of a rival's secrets, there mere realization that he has some sort of secret is enough for them to work with. When you are making a Contested Social Roll against someoen else, you gain a Free Raise to your roll for every 3 points of Mental or Social Disadvantages (rounded off) he possesses. Disadvantages which did not award Experience Pionts still count for their normal point value for the purposes of this Technique. This technique cannot award more than 5 Free Raises. The Bayushi are also known as the masters of both truth and lies, speaking so smoothly that both are indistinguishable in their mouths. You gain a Free Raise when using the Courtier skill to spread gossip, and need not Raise in order to conceal that you are the source of that gossip."
+      },
+      "2": {
+        "name": "Shallow Waters",
+        "description": "The Scorpion know how to assess others, sensing their weaknesses so as to determine how best to bring them down. By conversing with someone for a few minutes, you can make a Contested Roll of your Investigation / Awareness against their Etiquette / Awareness. With a success, you learn the identity and rank of their lowerst Mental and their lowest social Skill that has at least one Rank (The GM chooses in the case of ties). You may spend a Void point to also learn their next lowest Mental Trait and next lowest Social Skill."
+      },
+      "3": {
+        "name": "Secrets Are Birthmarks",
+        "description": "At this rank, the Scorpion has become so adept at ferreting out secrets that he can lure others in revealing them in casual conversation. By speaking with someone for a few minutes, you may make a Contested Roll of your Courtier (Manipulation) / Awareness against their Etiquette (Courtesy) / Awareness to force them into revealing one Mental or Social Disadvantage they possess. If they have no such Disadvantage, this will instead reveal one Mental or Social Advantage. (Note this will only reveal the rulebook title of the Advantage / Disadvantage, not the specific nature of it. For example, you might learn that the target has \"Dark Secret,\" but not the specific nature of the secret.) If the roll succeeded in revealing a Disadvantage, with the GM's permission you may take a 2-point Blackmail Advantage against this individual, for no cost in Experience Points."
+      },
+      "4": {
+        "name": "Scrutiny'S Sweet Sting",
+        "description": "At this rank, the Bayushi Courtier has learned to use all the information he has collected to subtly wreck his enemies, undermining their every word and deed. Any time you make a Contested Social Skill Roll against someone on whom you have Blackmail, his dice cannot explode. In addition, any time you make a Contested Social Skill Roll against someone, regardless of whether you have Blackmail on them or not, you may spend a Void Point to foce them to use a mental Trait of your choice (instead of the normal Trait used for the roll)."
+      },
+      "5": {
+        "name": "No More Masks",
+        "description": "The final lesson of the Bayushi School is to force the rest of the court to see the corrupt, dishonorable world he knows, shattering the reputations of those he speaks against. A number of times per session equal to your School Rank, you may make an Opposed Social Roll of Courtier (Gossip) / Awareness against an opponent's Etiquette (Courtesy) / Awareness. If you have Blackmail on the person you are targeting with his technique, you gain a bonus of +5k0 to the total of this roll. With a success, you may inflict one Social Disadvantage on the target: Bad Reputation, Sworn Enemy, or Obligation (to someone of your choice). The Disadvantage lasts for one month, unless the GM judges that the target has taken action which can expunge it sooner. (This Technique cannot be used on the same target until its effect expires.)"
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Extravagant Clothing","Wakizashi","any 1 weapon","Calligraphy Set","Traveling Pack"]
+  },
+  "scorpion_shosuro_infiltrator_school": {
+    "name": "Shosuro Infiltrator School",
+    "traits": ["reflexes"],
+    "honor": 1.5,
+    "tags": ["ninja"],
+    "skills": ["acting","athletics","ninjutsu","sincerity","stealth","stealth"],
+    "emphases": [
+      {
+        "skill": "stealth",
+        "emphases": ["Sneaking"]
+      },
+      {
+        "skill": "stealth",
+        "emphases": ["Sneaking"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Path Of Shadows",
+        "description": "The first lesson of an infiltrator is to mask all signs of one's true nature. You lose no Honor for use of Low Skills or Ninjutsu Weapons in the service of the Scorpion Clan (subject to GM approval). You gain a bonus of +2k0 to the total of all Stealth Skill rolls."
+      },
+      "2": {
+        "name": "Strike From Darkness",
+        "description": "A student of the Shosuro Techniques never fails to exploit any advantage held over a foe. Whenever you declare an attack against an opponent who is unaware of your presence until the moment of the attack, your Raises are not limited to your Void and you roll additional dice equal to your School Rank on the attack roll. You also roll half this number of additional unkept dice on an attack roll made against an opponent who is suffering from a Condition effect (such as Stunned or Fatigued). These two effects are not cumulative, and if both could apply, you must choose one of them. (You do not add one and one half times your School Rank in dice to an attack roll against an opponent who is both Blinded and unaware of your presence, for example.)"
+      },
+      "3": {
+        "name": "Steel Within Silk",
+        "description": "Striking quickly and effectively is the hallmark of a true shadow warrior. When attacking from ambush as described above, or when using ninjutsu weapons (including any weapons with the Ninja keyword), you may make a melee attack (or ranged attack, in the case of shuriken or tsubute) as a Simple Action rather than a Complex Action."
+      },
+      "4": {
+        "name": "Whisper Of Steel",
+        "description": "A master assassin strikes from shadow without ever revealing his presence. Even after attacking a target, your opponents and bystanders must succeed at a Contested Roll using Investigation (Notice) / Perception against Stealth / Agility to detect you. You may only use this Technique if you make a single attack per round. (The GM may rule that this technique does not work in situations where concealment is impossible.)"
+      },
+      "5": {
+        "name": "The Final Silence",
+        "description": "The true assassin requires but a single strike. After you make a damage roll as a result of a successful attack, you may spend a Void Point to increase any two dice to show 10s. These 10s do not explode. You may spend multiple Void Points in this manner, with each Void Point spent increasing the result of up to two damage dice."
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Ashigaru or Light Armor","Sturdy Black Clothing","Daisho","Bow or Knife","Traveling Pack"]
+  },
+  "snake_chuda_shugenja_school": {
+    "name": "Chuda Shugenja School",
+    "traits": ["willpower"],
+    "affinities": ["earth"],
+    "deficiencies": ["air"],
+    "honor": 4.5,
+    "tags": ["shugenja"],
+    "skills": ["etiquette","lore_maho","lore_shadowlands","spellcraft","calligraphy"],
+    "emphases": [
+      {
+        "skill": "calligraphy",
+        "emphases": ["Cipher"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      },
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "To Punish The Wicked",
+        "description": "Isawa Chuda was a ruthless persecutor of the Shadowlands, and his techniques live on in those who bear his name. You may spend a Void Point as a Free Action to negate an amount of Reduction equal to your School Rank from one targeted opponent. You also add your School Rank to the total of any damage roll made by a spell you cast against a target who possesses the Shadowlands Taint."
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Robes","Wakizashi","Knife","Scroll Satchel","Traveling Pack"]
+  },
+  "sparrow_suzume_bushi_school": {
+    "name": "Suzume Bushi School",
+    "traits": ["willpower"],
+    "honor": 6.5,
+    "tags": ["bushi"],
+    "skills": ["calligraphy","lore_history","lore_theology","perform_storytelling","kenjutsu"],
+    "emphases": [
+      {
+        "skill": "kenjutsu",
+        "emphases": ["Katana"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      },
+      {
+        "tags": ["lore"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "All Things In Time",
+        "description": "The Suzume watches the flow of combat to discern the perfect time for assault. At the beginning of the Combat Round, before the first character has taken his Turn, you may reduce your Initiative by 5 to add +1k0 to all your attack and damage rolls for the Round."
+      },
+      "2": {
+        "name": "Purity Of Chi",
+        "description": "The Suzume's body is filled with disdain for those who indulge in temptations away from the tenets of Bushido. You add +5 to your Armor TN against creatures and against human opponents with lower Honor."
+      },
+      "3": {
+        "name": "Wisdom Is The Greatest Weapon",
+        "description": "The Suzume is a masterful storyteller, captivating audiences with his words. You may spend a Void Point to add your Honor Rank to any Perform or Lore Skill Roll."
+      },
+      "4": {
+        "name": "Quiet Spirit, Steady Blade",
+        "description": "The serenity of a Sparrow is often mistaken for complacency, but that is far from the case. You may make melee attacks as a Simple Action instead of a Complex Action while in the Attack Stance."
+      },
+      "5": {
+        "name": "Slow And Deadly",
+        "description": "The Suzume strikes when his foes least expect it, even if he must weather the worst of the opponents' attacks. During the Round following your adoption of the Center Stance, you add +10 to your attack and damage rolls. You do not gain this benefit during Iaijutsu duels."
+      }
+    },
+    "koku": 3,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light or Heavy Armor","Sturdy Clothing","Daisho","any 1 weapon","Traveling Pack"]
+  },
+  "tortoise_kasuga_smuggler_school": {
+    "name": "Kasuga Smuggler School",
+    "traits": ["awareness"],
+    "honor": 2,
+    "tags": ["smuggler"],
+    "skills": ["commerce","etiquette","lore_underworld","stealth","investigation","sincerity"],
+    "emphases": [
+      {
+        "skill": "investigation",
+        "emphases": ["Notice"]
+      },
+      {
+        "skill": "sincerity",
+        "emphases": ["Deceit"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high","merchant","low"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Way Of The Tortoise",
+        "description": "The Tortoise routinely consort with the lowest elements of Rokugani society, often spend time in foreign ports, dealing with gaijin, and other villains, and otherwise do things most samurai would find repugnant. They are also skilled merchants, an unavoidable side effect of being smugglers. At character creation, you may learn an additional gaijin language for free with every purchase of the Languages Advantage. You do not lose Honor for using Low Skills, or Glory for using the Commerce skill in public, so long as you are doing so as part of your duty to your clan. When dealing with heimin or hinin, such as peasants, merchants, and eta, you gain a +2k0 bonus to all Social Skill rolls."
+      },
+      "2": {
+        "name": "The Shell Of The Tortoise",
+        "description": "Most samurai in Rokugan revile the Tortoise for their unusual behavior and their association with commoners and gaijin, but all samurai know the Tortoise Clan has the special permission and sponsorship of the Emperor. Any clan or Imperial samurai who physically attacks or openly slanders you without provocation on your part (GM's discretion) will immediately lose a number of points of Honor equal to twice your School Rank."
+      },
+      "3": {
+        "name": "The Eyes Of The Emperor",
+        "description": "The Tortoise function as spies and agents of the Emperor, and are adept at the lowest of tactics and methods. When acting on behalf of your clan, you may roll additional unkept dice equal to your School Rank on all Low Skills in which you have at least one Skill Rank. This includes any School Skills which only function as Low Skills when used in certain ways (such as Sincerity with the Deceit Emphasis). This does not work with Advantages and Techniques which simulate Skill Ranks (such as the Crafty Advantage.)"
+      },
+      "4": {
+        "name": "Hand In Hand",
+        "description": "The Tortoise work in close cooperation with the common folk of Rokugan, people who other samurai ignore as much as possible. This gives them access to information networks no other samurai can reach. Once per session, if you have access to the local heimin or hinin, you can roll Lore: Underworld / Awareness at TN 25 to learn one useful piece of information (chosen by the GM) that cannot be learned any other way."
+      },
+      "5": {
+        "name": "The Tortoise Smiles",
+        "description": "With his training completed, the Tortoise smuggler can transcend his own limits in the pursuit of his Clan's devious goals, serving the Emperor without constraint. When making a Skill Roll with any of your six specified School Skills, your maximum Raises are not limited by your Void. A number of times per session equal to your Void Ring, you may gain a +5k0 bonus when making a roll with any of your School Skills. This bonus can stack with the bonus from your Rank Three technique."
+      }
+    },
+    "koku": 5,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Extravagant Clothing","Wakizashi","any 1 weapon","Calligraphy Set"]
+  },
+  "unicorn_moto_bushi_school": {
+    "name": "Moto Bushi School",
+    "traits": ["strength"],
+    "honor": 3.5,
+    "tags": ["bushi"],
+    "skills": ["athletics","defense","horsemanship","hunting","kenjutsu"],
+    "emphases": [
+      {
+        "skill": "kenjutsu",
+        "emphases": ["Scimitar"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      },
+      {
+        "tags": ["bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Way Of The Unicorn",
+        "description": "The Moto combat style is a wild, unfettered fury that intimidates witnesses. You may wield any two-handed weapon with one hand (except for bows). You gain a bonus of +1k0 to damage rolls while mounted, using a scimitar, or while using a two-handed melee weapon (these bonuses do not stack). Scimitars have the Samurai keyword for you."
+      },
+      "2": {
+        "name": "Shinsei's Smile",
+        "description": "The Moto are famed for slicing their enemies' throats from ear to ear, a gruesome display they proudly call Shinsei's Smile. You take advantage of your opponent's weakened state, gaining a bonus to your attack rolls equal to half of his Wound Rank TN penalties, rounded down. For example, if your opponent is unhurt and in the Healthy Wound Rank, you do not gain a bonus. If your opponent is in the Crippled Wound Rank, you gain a bonus of +10 to the total of attack rolls."
+      },
+      "3": {
+        "name": "Desert Wind Strike",
+        "description": "Power and precision are equally valuable to the Moto. You may make attacks as a Simple Action instead of a Complex Action when using a melee weapon."
+      },
+      "4": {
+        "name": "The Charge Of Madness",
+        "description": "The Moto fighting style is utterly relentless, allowing him to move from one foe to another without ceasing. Once per skirmish, if you successfully bring a target down to the Out Wound Level, you may immediately make an additional attack as a Free Action. This attack may not target the same target as the attack that activated Technique. You may not make Raises on this attack."
+      },
+      "5": {
+        "name": "Moto Cannot Yield",
+        "description": "A Moto never surrenders. While mounted or while assuming the Full Attack Stance you keep an additional number of damage dice equal to half your strength, rounded down. You only gain this bonus while wielding a two-handed weapon or a weapon with the Samurai keyword."
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Riding or Heavy Armor","Sturdy Clothing","Daisho","Heavy Weapon or Polearm","Traveling Pack","Horse (Unicorn riding horse)","any 1 weapon"]
+  },
+  "unicorn_iuchi_shugenja_school": {
+    "name": "Iuchi Shugenja School",
+    "traits": ["perception"],
+    "affinities": ["water"],
+    "deficiencies": ["fire"],
+    "honor": 5.5,
+    "tags": ["shugenja"],
+    "skills": ["battle","horsemanship","lore_theology","meditation","spellcraft","calligraphy"],
+    "emphases": [
+      {
+        "skill": "calligraphy",
+        "emphases": ["Cipher"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high","bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Spirit of the Wind",
+        "description": "The Iuchi harness the power of the elements to grant the waves' speed to others. As a Complex Action, you may sacrifice one spell slot of any element to grant one target individual an additional Simple Move Action. This Simple Action is in addition to the target's normal Actions per Round. The Additional Action must be used on the target's next Turn or it is lost. You also gain a Free Raise on any spell with the Travel keyword. Spells: Sense, Commune, Summon, 3 Water, 2 Earth, and 1 Air"
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Extravagant clothing","wakizashi","any 1 weapon","Calligraphy Set","Traveling Pack","Horse (Unicorn Riding Horse)"]
+  },
+  "unicorn_ide_emissary_school": {
+    "name": "Ide Emissary School",
+    "traits": ["awareness"],
+    "honor": 5.5,
+    "tags": ["courtier"],
+    "skills": ["calligraphy","commerce","courtier","horsemanship","etiquette","sincerity"],
+    "emphases": [
+      {
+        "skill": "etiquette",
+        "emphases": ["Conversation"]
+      },
+      {
+        "skill": "sincerity",
+        "emphases": ["Honesty"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high","perform"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Heart Speaks",
+        "description": "The Ide are taught to adapt instantly to new customs and social nuances, allowing them to avoid giving offense in even the most dangerous and hostile of courts. Also, since they must often deal with foreigners who might react poorly to lies or manipulation, they are taught to employ honesty and direct speech whenever possible. In any situation in which you might inadvertently give offense, whether through accident or ignorance (such as being unware of a daimyo's hostility to a particular subject of conversation), you may roll Etiquette (Courtesy) / Awareness at TN 20 to avoid doing so. You gain a Free Raise when rolling Sincerity (Honest), but any time you roll Sincerity (Deceit), your TN is increased by +5."
+      },
+      "2": {
+        "name": "Piercing The Veils",
+        "description": "After centuries of dealing with unpredictable and sometimes violent folk in the Burning Sands, the Ide have learned an almost preternatural ability to read the emotions of others, recognizing their true feelings and, hopefully, steering away from trouble. You may attempt to read someone else's true emotions in a social situation by making a Contested Social Roll of Etiquette / Awareness against the target's Etiquette / Willpower. With a success, you gain a simple, general idea of their true feelings - which can be very useful when those feelings are not the same as their outward actions. You may Raise for better information, subject to GM's adjudication. (For example, two Raises might tell you, \"The Doji is actually hoping for your success against the Dragon.\")"
+      },
+      "3": {
+        "name": "The Heart Listens",
+        "description": "The Ide family's training emphasizes friendship and good personal relations as the key to successful diplomacy. You may attempt to sway someone's attitude toward you in a positive direction. This requires spending at least 10 minutes in conversation, after which you may make a Contested Roll of your Sincerity (Honesty) / Awareness against their Etiquette (Courtesy) / Willpower. With a success, you shift their attitude toward you in a positive direction. (A hostile individual will become more neutral, an undecided individual will become friendly, etc.) If you make at least two successful Raises on this roll, the target will regard you as an Ally for the remainder of this day (subject to GM approval). This technique cannot be used on Sworn Enemies, and the GM is the final arbiter on whether it functions against unusual targets such as nonhuman creatures."
+      },
+      "4": {
+        "name": "Answering The Heart",
+        "description": "At this level of training, the Ide have become true masters of mediation, able to see past all the deceptions and false fronts of diplomacy and discern the true solution to any problem. When using your Rank Two and Rank Three techniques, you may roll additional unkept dice equal to your School Rank."
+      },
+      "5": {
+        "name": "The Immovable Hand Of Peace",
+        "description": "The final lesson the Ide school teaches its students is to be such perfect mediators that no honorable person can raise a hand against them in violence. You may spend a Void Point to make a Contested Roll of your Sincerity (Honesty) / Awareness against a target individual's Etiquette (Courtesy) / Awareness. If you win the roll, the target cannot take any hostile action against you (physical, social, or magical) for a number of hours equal to twice your School Rank, as long as your likewise refrain from hostility against that person. This Technique does not work agaisnt those with an Honor Rank less than 2.0 or who possess no Honor Rank (animals, oni, etc)."
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Extravagant Clothing","Wakizashi","any 1 weapon","Calligraphy Set","Traveling Pack"]
+  },
+  "unicorn_utaku_battle_maiden": {
+    "name": "Utaku Battle Maiden",
+    "traits": ["reflexes"],
+    "honor": 6.5,
+    "tags": ["bushi"],
+    "skills": ["battle","defense","horsemanship","horsemanship","kenjutsu","sincerity"],
+    "wildcards": [
+      {
+        "tags": ["high","bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Riding In Harmony",
+        "description": "The Utaku Battle Maidens value honor above all. You gain a bonus equal to your Honor Rank to one attack per Round. While mounted, you may instead choose to apply to bonus to one damage roll if you choose. You gain a bonus equal to your Honor Rank to the total of all Horsemanship rolls."
+      },
+      "2": {
+        "name": "The Void Of War",
+        "description": "An Utaku can sacrifice defense for speed if the flow of the battle calls for it. During Stage 1 of any Combat Round, you may add 5 to either your Initiative Score or your Armor TN. This bonus lasts until you use this Technique again or the skirmish ends."
+      },
+      "3": {
+        "name": "Sensing The Breeze",
+        "description": "The natural feel of the saddle lends an Utaku unnatural freedom of movement. While mounted, you may make attacks as a Simple Action instead of a Complex Action."
+      },
+      "4": {
+        "name": "Wind Never Stops",
+        "description": "Like the wind across the battlefield, the charge of an Utaku is unstoppable. While mounted, you may overrun the enemy spending a Void Point. You may take a Simple Action to charge the enemy and attack him at the end of your movement. (Both the movement and the attack take the same Simple Action. If you are mounted, this Action uses the movement rate of your steed.) If this attack succeeds, you gain a bonus of +2k1 to the total of all damage rolls this Turn."
+      },
+      "5": {
+        "name": "Otaku's Blessing",
+        "description": "The Utaku carry the honor of their founder as their shield. At the beginning of your Turn, you may spend a Void Point as a Free Action to activate this Technique. You add your Honor Rank to all damage rolls and Bugei Skill Rolls this Turn. This bonus stacks with those from Riding in Harmony."
+      }
+    },
+    "koku": 10,
+    "bu": 0,
+    "zeni": 0,
+    "outfit": ["Light or Riding Armor","Sturdy Clothing","Daisho","any 1 weapon","Traveling Pack","Horse (Utaku Warhorse)"]
+  },
+  "order_of_the_wind": {
+    "name": "Order of the Wind",
+    "traits": ["reflexes"],
+    "honor": 4.5,
+    "tags": ["monk","monks_monk","brotherhood"],
+    "devotion": "Fortunism",
+    "skills": ["athletics","defense","jiujutsu","lore_theology","meditation","staves"],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Essence of the Wind",
+        "description": "A true Brother of the Wind allows the world to move around him like a breeze, remaining centered and assured throughout the chaos of existence. Any effect that targets you and attempts to influence your behavior, whether it be a spell, a courtier Technique, a social Skill or Advantage, or any other mechanic, requires an additional Void Point to take effect. (However, this can bypass the normal limit on spending one Void Point per Round for enhancement effects.)"
+      }
+    },
+    "koku": 0,
+    "bu": 0,
+    "zeni": 2,
+    "outfit": ["Bo (or pair of jo)","Coarse and plain Traveling Clothing","Scroll Satchel with passages from the Tao"]
+  },
+  "winds_grace_order": {
+    "name": "Wind's Grace Order",
+    "traits": ["Reflexes"],
+    "honor": 6.5,
+    "tags": ["monk","monks_monk","brotherhood"],
+    "devotion": "Shintao",
+    "skills": ["calligraphy","jiujutsu","kyujutsu","meditation","lore_theology"],
+    "emphases": [
+      {
+        "skill": "lore_theology",
+        "emphases": ["Shintao"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      },
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Pillars of the Mind's Eye",
+        "description": "By clearing the mind and embracing absolute serenity and focus, a brother of the Wind's Grace can grasp the simple truth: the arrow and the target are already one. You make an archery attack as a Complex Action; for every Kiho you have that is presently active, you gain a bonus of +1k0 to the total of that roll. Active Kiho may not have any other effects during a Round in which you employ this Technique, and only one Martial Kiho can confer this benefit. However, any time you use this Technique to make an attack that directly results in the death of an intelligent being, you lose 3 points of Honor."
+      }
+    },
+    "koku": 0,
+    "bu": 0,
+    "zeni": 2,
+    "outfit": ["Bo (or pair of jo)","Coarse and plain Traveling Clothing","Scroll Satchel with passages from the Tao"]
+  },
+  "fukurokujins_eyes": {
+    "name": "Fukurokujin's Eyes",
+    "traits": ["Perception"],
+    "honor": 4.5,
+    "tags": ["monk","monks_monk","brotherhood"],
+    "devotion": "Fortunism",
+    "skills": ["calligraphy","divination","etiquette","investigation","lore_history","lore_theology"],
+    "emphases": [
+      {
+        "skill": "lore_theology",
+        "emphases": "Shintao"
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["not bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Way of the Closed Eye",
+        "description": "By observing and anticipating, monks of Fukurokujin's Eyes can accurately predict the actions of others and take advantage of this foreknowledge in a variety of ways. You may not be surprised by ambushes. Further, at the start of a skirmish prior to rolling Initiative, you may spend a Void Point and make a Perception Trait Roll at TN 20. If the roll succeeds, you may increase your subsequent Initiative Score by 20. However, this bonus is lost instantly if you make an attack of any kind."
+      }
+    },
+    "koku": 0,
+    "bu": 0,
+    "zeni": 2,
+    "outfit": ["Bo (or pair of jo)","Coarse and plain Traveling Clothing","Scroll Satchel with passages from the Tao"]
+  },
+  "order_of_the_nameless_gift": {
+    "name": "Order of the Nameless Gift",
+    "traits": ["Stamina"],
+    "honor": 4.5,
+    "tags": ["monk","monks_monk","brotherhood"],
+    "devotion": "Shintao",
+    "skills": ["athletics","defense","jiujutsu","meditation"],
+    "wildcards": [
+      {
+        "tags": ["lore"],
+        "ranks": 1
+      },
+      {
+        "tags": ["any"],
+        "ranks": 1
+      },
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Shinsei's Gift",
+      "description": "A monk taught by the Order of the Nameless Gift can be an endless well of endurance, patience, and insight. Because they are much more worldly than many other monks in the Brotherhood, their training and experience add to a typical monk’s canny mind and strength in combat. You gain a number of Void Points per day equal to your Earth Ring, but these Void Points may only be spent to reduce damage or to raise your Armor TN. These Void Points may not be spent simultaneously with other Void Points or in any other fashion."
+      }
+    },
+    "koku": 0,
+    "bu": 0,
+    "zeni": 2,
+    "outfit": ["Bo (or pair of jo)","Coarse and plain Traveling Clothing","Scroll Satchel with passages from the Tao"]
+  },
+  "temple_of_persistence": {
+    "name": "Temple of Persistence",
+    "traits": ["Stamina"],
+    "honor": 3.5,
+    "tags": ["monk","monks_monk","brotherhood"],
+    "devotion": "Fortunist",
+    "skills": ["athletics","defense","lore_theology","meditation","jiujutsu"],
+    "emphases": [
+      {
+        "skill": "jiujutsu",
+        "emphases": ["martial_arts"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei"],
+        "ranks": 1
+      },
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Unyielding Spirit",
+        "description": "Members of the Order of Persistence are known to be stubborn in both body and soul. They do not simply endure the wrathful assaults of others, but learn to push forward actively toward their goal. You may spend a Void Point as a Free Action to ignore all penalties to an immediately subsequent die roll. If you use this Technique when making either a Contested Roll you did not initiate or an Attack Roll, you may also add +Xk0 to the roll, where X is your Earth Ring."
+      }
+    },
+    "koku": 0,
+    "bu": 0,
+    "zeni": 2,
+    "outfit": ["Bo (or pair of jo)","Coarse and plain Traveling Clothing","Scroll Satchel with passages from the Tao"]
+  },
+  "monks_order_of_rebirth": {
+    "name": "Order of Rebirth",
+    "traits": ["intelligence"],
+    "honor": 6.5,
+    "tags": ["monk","monks_monk","brotherhood"],
+    "devotion": "Fortunist",
+    "skills": ["athletics","lore_history","jiujutsu","lore_theology","meditation"],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      },
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Changing the Way","description": "The Brothers of Rebirth celebrate different approaches in all the myriad of forms. Each time in a given encounter that you attempt to utilize a Kiho of a different Element that any Kiho previously used in the same encounter, you gain a bonus of +5 on the activation roll."}
+    }
+  },
+  "monks_tengokus_fist": {
+    "name": "Tengoku's Fist",
+    "traits": ["agility"],
+    "honor": 4.5,
+    "tags": ["monk","monks_monk","brotherhood"],
+    "devotion": "Shintao",
+    "skills": ["athletics","jiujutsu","jiujutsu","battle","lore_theology","meditation"],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Hand of the Heavens","description": "The monks of Tengoku's Fist strike with surety and purpose, and their strength is magnified by the influence of the divine. When making an unarmed attack against an opponent, or an attack using a bisento, a bo staff, or a weapon with the Monk property, you may gain a Free Raise on the attack roll if your Fire Ring is higher than your opponent's Fire Ring."}
+    }
+  },
+  "monks_the_temple_of_heavenly_wisdom": {
+    "name": "The Temple of Heavenly Wisdom",
+    "traits": ["intelligence"],
+    "honor": 6.5,
+    "tags": ["monk","monks_monk","brotherhood"],
+    "devotion": "Fortunism",
+    "skills": ["courtier","etiquette","meditation","sincerity","lore_history","lore_theology"],
+    "emphases": [
+      {
+        "skill": "lore_theology",
+        "emphases": ["Shintao"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Largesse of Fukurokujin","description": "The Fortune of Wisdom showers his blessings upon those monks who revere him, granting them insight into the way of politics and diplomacy where others might make grievous errors. When making any Social Skill Roll, you may select any one Kiho you possess. You may not use that Kiho for the remainder of the day, but you gain a bonus of +1k1 to the Social Skill Roll. You may only select each Kiho you know once per day for this purpose."}
+    }
+  },
+  "order_of_eternity": {
+    "name": "Order of Eternity",
+    "traits": ["intelligence"],
+    "honor": 4.5,
+    "tags": ["monk","monks_monk","brotherhood"],
+    "skills": ["defense","jiujutsu","meditation","lore_theology","divination"],
+    "emphases": [
+      {
+        "skill": "divination",
+        "emphases": ["astrology"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high"],
+        "ranks": 1
+      },
+      {
+        "tags": ["high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Touch of Eternity",
+        "description": "The monks of this Order believe that time is an illusion and that the events of the past, present, and future are all coexistent. This causes them to engage in many strange actions, but also allows them an unusual degree of insight into the world around them. You may contemplate a noncombat situation, for an amount of time determined by the GM (the monks of this Order have been known to size up a complex situation in an instant, but also to spend an hour considering whether to eat a bowl of rice). At the end of your contemplation, you roll Meditation / Void at TN 25 (higher for complex situations). With a success, you gain a bonus of +1k1 +Void to any Skill Rolls you make to try to resolve that specific situation. The GM should exercise good judgment in considering the application of the Order of Eternity Technique – some situations may be too complex to master with a single consideration. In general, the monk should not be able to apply this Technique’s benefits to more Skill Rolls than his Void Rank – any rolls beyond that will require further contemplation and another Meditation / Void roll."
+      }
+    },
+    "koku": 0,
+    "bu": 0,
+    "zeni": 2,
+    "outfit": ["Bo (or pair of jo)","Coarse and plain Traveling Clothing","Scroll Satchel with passages from the Tao"]
+  },
+  "monks_order_of_jurojins_blessing": {
+    "name": "Order of Jurojin's Blessing",
+    "traits": ["intelligence"],
+    "honor": 5.5,
+    "tags": ["monk","monks_monk","brotherhood"],
+    "devotion": "Fortunist",
+    "skills": ["athletics","jiujutsu","meditation","staves","lore_anatomy","medicine"],
+    "emphases": [
+      {
+        "skill": "lore_anatomy",
+        "emphases": ["disease"]
+      },
+      {
+        "skill": "medicine",
+        "emphases": ["disease","herbalism"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Blessings of Longevity",
+        "description": "You gain a +1k1 bonus to all Medicine rolls made for the purpose of treating disease or infection, and a +1k0 bonus to all Medicine rolls made for the purpose of treating Wounds. You may also attempt to treat natural (non- Taint-induced) insanity with a Medicine roll, although it is the GM’s option whether your treatment actually has any effect."
+      }
+    },
+    "koku": 0,
+    "bu": 0,
+    "zeni": 2,
+    "outfit": ["Bo (or pair of jo)","Coarse and plain Traveling Clothing","Scroll Satchel with passages from the Tao"]
+  },
+  "monks_the_shrine_of_heavens_mirror": {
+    "name": "The Shrine of Heaven's Mirror",
+    "traits": ["perception"],
+    "honor": 3.5,
+    "tags": ["monk","monks_monk","brotherhood"],
+    "devotion": "Fortunist",
+    "skills": ["athletics","jiujutsu","lore_omens","meditation","divination"],
+    "emphases": [
+      {
+        "skill": "divination",
+        "emphases": ["Omens"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      },
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Gaze Into the Mirror",
+        "description": "The peculiar practices of Heaven’s Mirror monks grant them insights denied to other mortals. You gain a bonus of +1k0 to all Divination Skill rolls. If the roll involves interpretation of an omen, the bonus is +1k1 instead. Once per day, you may spend a Void Point to interpret an omen with absolute accuracy, with no need for a Skill roll to do so. (Of course, the GM still has discretion as to what the correct interpretation of the omen might be.) Special: You must be Ascetic and follow the peculiar practices of the Heaven’s Mirror sect, regardless of the social consequences of doing so. Failing to embrace these practices will result in your losing the benefits of your School Technique, and may also result in expulsion from this sect."
+      }
+    },
+    "koku": 0,
+    "bu": 0,
+    "zeni": 2,
+    "outfit": ["Bo (or pair of jo)","Coarse and plain Traveling Clothing","Scroll Satchel with passages from the Tao"]
+  },
+  "crab_ob_hida_pragmatist_school": {
+    "name": "Hida Pragmatist School",
+    "traits": ["agility"],
+    "honor": 2.5,
+    "tags": ["bushi"],
+    "skills": ["athletics","defense","kenjutsu","lore_shadowlands","jiujutsu","jiujutsu"],
+    "emphases": [
+      {
+        "skill": "jiujutsu",
+        "emphases": ["Improvised Weapons"]
+      },
+      {
+        "skill": "jiujutsu",
+        "emphases": ["Improvised Weapons"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Eternal Stone Unleashed",
+        "description": ""
+      },
+      "2": {
+        "name": "Wearing Down The Mountain",
+        "description": ""
+      },
+      "3": {
+        "name": "Fury Of The Avalanche",
+        "description": ""
+      },
+      "4": {
+        "name": "Stone Turns Steel Aside",
+        "description": ""
+      },
+      "5": {
+        "name": "Fight To The End",
+        "description": ""
+      }
+    }
+  },
+  "unicorn_shinjo_bushi": {
+    "name": "Shinjo Bushi",
+    "traits": ["agility"],
+    "honor": 4.5,
+    "tags": ["bushi"],
+    "skills": ["athletics","defense","horsemanship","horsemanship","kenjutsu","kyujutsu"],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Way of the Ki-Rin",
+        "description": ""
+      },
+      "2": {
+        "name": "Dance of the Blade",
+        "description": ""
+      },
+      "3": {
+        "name": "The Four Winds Strike",
+        "description": ""
+      },
+      "4": {
+        "name": "Spirit of the Blade Unleashed",
+        "description": ""
+      },
+      "5": {
+        "name": "Dancing with the Fortunes",
+        "description": ""
+      }
+    }
+  },
+  "crane_ob_doji_magistrate_school": {
+    "name": "Doji Magistrate School",
+    "traits": ["reflexes"],
+    "honor": 5.5,
+    "tags": ["bushi"],
+    "skills": ["defense","horsemanship","jiujutsu","kenjutsu","polearms","knives"],
+    "emphases": [
+      {
+        "skill": "knives",
+        "emphases": ["Jitte"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high","bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Temper Steel With Honor",
+        "description": ""
+      },
+      "2": {
+        "name": "Flowing Like Water",
+        "description": ""
+      },
+      "3": {
+        "name": "Breath Of The Law",
+        "description": ""
+      },
+      "4": {
+        "name": "Flowing Like Air",
+        "description": ""
+      },
+      "5": {
+        "name": "The Willow In The Storm",
+        "description": ""
+      }
+    }
+  },
+  "dragon_ob_mirumoto_taoist_swordsman": {
+    "name": "Mirumoto Taoist Swordsman",
+    "traits": ["void"],
+    "honor": 5.5,
+    "tags": ["bushi"],
+    "skills": ["athletics","defense","iaijutsu","lore_theology","meditation","kenjutsu"],
+    "emphases": [
+      {
+        "skill": "kenjutsu",
+        "emphases": ["Katana"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei","high"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Aligned With the Elements",
+        "description": ""
+      },
+      "2": {
+        "name": "Fist and Blade",
+        "description": ""
+      },
+      "3": {
+        "name": "Strike of Harmony",
+        "description": ""
+      },
+      "4": {
+        "name": "Master of Steel",
+        "description": ""
+      },
+      "5": {
+        "name": "Balance in Nothingness",
+        "description": ""
+      }
+    }
+  },
+  "lion_ob_the_ikoma_lions_shadow_school": {
+    "name": "The Ikoma Lion's Shadow School",
+    "traits": ["awareness"],
+    "honor": 3.5,
+    "tags": ["bushi"],
+    "skills": ["courtier","etiquette","kenjutsu","sincerity","stealth","investigation"],
+    "emphases": [
+      {
+        "skill": "investigation",
+        "emphases": ["Notice"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high","low"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "No Boundaries",
+        "description": ""
+      },
+      "2": {
+        "name": "The Lion Cannot Fail",
+        "description": ""
+      },
+      "3": {
+        "name": "The Spirit Of Ikoma",
+        "description": ""
+      },
+      "4": {
+        "name": "The Quiet Lion's Claws",
+        "description": ""
+      },
+      "5": {
+        "name": "Ferocious Determination",
+        "description": ""
+      }
+    }
+  },
+  "phoenix_ob_shiba_artisan_school": {
+    "name": "Shiba Artisan School",
+    "traits": ["intelligence"],
+    "honor": 5.5,
+    "tags": ["artisan"],
+    "skills": ["calligraphy","etiquette","sincerity"],
+    "wildcards": [
+      {
+        "tags": ["artisan"],
+        "ranks": 1
+      },
+      {
+        "tags": ["high","bugei"],
+        "ranks": 1
+      },
+      {
+        "tags": ["lore"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Soul Of Brilliance",
+        "description": ""
+      },
+      "2": {
+        "name": "The Way Of Sincerity",
+        "description": ""
+      },
+      "3": {
+        "name": "The Art Speaks",
+        "description": ""
+      },
+      "4": {
+        "name": "Bounty Of The Craft",
+        "description": ""
+      },
+      "5": {
+        "name": "The Touch Of Destiny",
+        "description": ""
+      }
+    }
+  },
+  "scorpion_soshi_magistrate": {
+    "name": "Soshi Magistrate",
+    "traits": ["agility"],
+    "honor": 2.5,
+    "tags": ["bushi"],
+    "skills": ["defense","athletics","jiujutsu","kenjutsu","lore_underworld","intimidation"],
+    "emphases": [
+      {
+        "skill": "intimidation",
+        "emphases": ["Control"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Face of Justice",
+        "description": ""
+      },
+      "2": {
+        "name": "Rise to Meet the Challenge",
+        "description": ""
+      },
+      "3": {
+        "name": "The Magistrate's Cut",
+        "description": ""
+      },
+      "4": {
+        "name": "Certainty of Purpose",
+        "description": ""
+      },
+      "5": {
+        "name": "Relentless Resolve",
+        "description": ""
+      }
+    }
+  },
+  "ronin_order_shugenja_school": {
+    "name": "Ronin Order Shugenja",
+    "traits": ["awareness"],
+    "affinities": ["air"],
+    "deficiencies": ["earth"],
+    "honor": 5.0,
+    "tags": ["ronin","shugenja"],
+    "skills": ["divination","lore_theology","meditation","spellcraft","calligraphy"],
+    "emphases": [
+      {
+        "skill": "calligraphy",
+        "emphases": ["Cipher"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["lore"],
+        "ranks": 1
+      },
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Path of Discipline",
+        "description": "Orders such as the Brotherhood and other prominent ronin groups emphasize the most basic tenets of shugenja traditions, strengthening the core beliefs and abilities of their students. You gain one Free Raise on all Sense, Commune, and Summon spells for all elements except Void and Earth."
+      }
+    },
+    "koku": 0,
+    "bu": 5,
+    "zeni": 0,
+    "outfit": ["Sturdy Robes","Daisho","Travelling Pack","Scroll Satchel"]
+  },
+  "unicorn_meishodo_horiuchi_shugenja_school": {
+    "name": "Meishodo/Horiuchi Shugenja School",
+    "traits": ["stamina"],
+    "affinities": ["earth"],
+    "deficiencies": ["air"],
+    "honor": 4.5,
+    "tags": ["shugenja"],
+    "skills": ["calligraphy","craft_meishodo","lore_theology","defense","meditation","spellcraft"],
+    "emphases": [
+      {
+        "skill": "spellcraft",
+        "emphases": ["Spell Research"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high","bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Mysteries of Meishodo",
+        "description": "Meishodo is a mixture of gaijin and Rokugani magic, resulting in a fast and powerful method of calling the kami. Shugenja studying these methods learn to create meishodo amulets, keyed to invoke the elements in specific ways. You may create a magical amulet by making a successful roll of Craft: Meishodo/Ring, using the Ring for the desired spell. The TN of this roll is equal to 15 plus 5x the spell's Mastery Level. Creating a meishodo requires a number of hours equal to the spell's Mastery Level. If the roll is successful, you create a small charm imbued with the prayer to the kami that will cast the chosen spell. Each meishodo stores only one spell, and is used in place of the scroll normally required to cast the spell. Casting a spell through a meishodo requires only one Complex Action, regardless of the Mastery Level of the spell. You do not have to make a Spell Casting Roll to cast the spell, but the spell cannot gain any benefits from Raises (not even Free Raises). You expend a spell slot as normal. You may only create meishodo from spells of a Mastery Level equal or less than your Shugenja School Rank, and can never create meishodo from spells of Mastery Level 4, 5 or 6. Other shugenja may use your meishodo if they are proficient in meishodo magic (e.g. trained in this school)."
+      }
+    }
+  },
+  "unicorn_moto_vindicator_school": {
+    "name": "Moto Vindicator School",
+    "traits": ["willpower"],
+    "honor": 3.5,
+    "tags": ["bushi"],
+    "skills": ["horsemanship","hunting","investigation","kenjutsu","kyujutsu","lore_shadowlands"],
+    "emphases": [
+      {
+        "skill": "investigation",
+        "emphases": ["Notice"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Purity of the Breath",
+        "description": "The Vindicator knows the only way to combat the Shadowlands is to maintain integrity in the face of the foulest corruption. At the beginning of each Round, you may choose one of two effects to apply until the end of the Round. You may reduce your TN penalties from Wound Ranks by an amount equal to your School Rank plus your Willpower. Or, you may instead choose to add a bonus to your Armor TN equal to your School Rank plus your Willpower. If you are in a skirmish against creatures of the Shadowlands, the chosen bonus is doubled."
+      },
+      "2": {
+        "name": "Facing the Dark Within",
+        "description": "The Vindicator learns to hone his senses so that he is never surprised by those who serve the darkness. You gain a +2k0 bonus to all Investigation rolls. This bonus is increased to +2k1 if you are specifi cally attempting to notice effects of the Shadowlands Taint."
+      },
+      "3": {
+        "name": "Justice of our Ancestors",
+        "description": "The Vindicator's rage at his foes knows no bounds. You may make melee attacks as a Simple Action instead of a Complex Action."
+      },
+      "4": {
+        "name": "Avenging our Own",
+        "description": "The Vindicator's fury is provoked the most when it is directed at those creatures he once called his brothers. You gain a bonus of +2k0 to your attack and damage rolls against any enemy who has attacked you in this skirmish and against any creature with the Shadowlands Taint whether it has attacked you or not."
+      },
+      "5": {
+        "name": "Bloodied but Unbowed",
+        "description": "The Vindicator can push on past physical limits once his goal is in sight. Once per skirmish, you may choose to keep fi ghting despite your injuries. Activating this Technique is a Free Action. Once it is active, while making melee attacks you gain a bonus to the total of your damage rolls equal to the TN penalties you are suffering from Wound Ranks. (This uses the default Wound penalties, ignoring modifi cations from Advantages, spells, or other such effects.) The effects of this Technique last for two full Rounds. You may choose to extend the effects of this Technique for an additional Round by taking ten Wounds."
+      }
+    }
+  },
+  "crab_ob_kaiu_engineer_school": {
+    "name": "Kaiu Engineer School",
+    "traits": ["intelligence"],
+    "honor": 4.5,
+    "tags": ["artisan","crab_artisan","bushi"],
+    "skills": ["battle","craft_armorsmithing","craft_weaponsmithing","defense","engineering","lore_architecture","war_fan"],
+    "emphases": [
+      {
+        "skill": "engineering",
+        "emphases": ["*any"]
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "The Kaiu Method",
+        "description": "A student of the Kaiu Method is taught the many basic essential disciplines the family uses to serve the Crab. You gain a bonus of +1k0 when making any School Skill Roll. When spending a Void Point to augment a School Skill Roll, you gain a bonus of +2k2 instead of +1k1. These effects are not cumulative."
+      },
+      "2": {
+        "name": "The Path Of Stone",
+        "description": "The Kaiu are feared on the battlefi eld for good reason—they are the masters of both construction and destruction. When constructing any large structure (temple-sized or larger), you may make an Engineering Skill Roll at TN 25 to add an additional number of Wounds to the structure equal to your School Rank x 100. Also, when commanding a siege engine, you may re-roll once any of the siege engine's damage dice that roll below your School Rank."
+      },
+      "3": {
+        "name": "The Path Of The Shell",
+        "description": "The security and protection of Crab samurai is a somber duty all Kaiu take very seriously indeed. When crafting any set of armor, you may double the crafting time and cost in order to add your School Rank to the armor's Reduction value. You may also add half your School Rank (rounding up) to the armor's Armor TN bonus."
+      },
+      "4": {
+        "name": "The Path Of War",
+        "description": "Every Kaiu is a student of battle, as are all Crab. When you roll on the Mass Battle Chart, you may modify your result (up or down) by an additional amount equal to half your School Rank. Additionally, when fi ghting with a katana, dai tsuchi, or war fan, you may make melee attacks as a Simple Action rather than a Complex Action."
+      },
+      "5": {
+        "name": "The Path Of Steel",
+        "description": "The greatest and most sacred duty of the Kaiu is crafting the sacred weapons of the Crab Clan. When crafting any weapon, you may choose to confer either a +1k0 bonus to all attack rolls made with that weapon, or a +0k1 bonus to all damage rolls made with that weapon. If the weapon is a katana, you may expend all your Void Points (a minimum of one point must be spent) to make the blade unbreakable (as per the Sacred Weapon: Kaiu Blade Advantage). Doing so renders you unable to recover Void Points for one week."
+      }
+    }
+  },
+  "crab_ob_kuni_witch_hunter_school": {
+    "name": "Kuni Witch Hunter School",
+    "traits": ["willpower"],
+    "honor": 5.5,
+    "tags": ["monk"],
+    "skills": ["investigation","jiujutsu","kenjutsu","lore_maho","lore_shadowlands","meditation"],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "To See The Darkness",
+        "description": "Witch-Hunters are taught both to sense the power of Jigoku and to crush those who carry its dreadful mark. You may attempt to detect the Taint in another person by holding your jade pendant (or another piece of jade) and staring intently at them. This is a Complex Action and requires you to make a Contested Roll of your Investigation (Interrogation) / Awareness against the target's Sincerity (Deceit) / Willpower. You gain a +1k0 bonus to this roll for every full Rank of Taint the target possesses. If you succeed in the roll and the target is Tainted (has at least 1 Rank of Taint), you are able to sense the presence of the Taint and its approximate strength. If you fail the roll or the target is not Tainted, you gain no information. In addition, you gain +1k1 to your rolls to resist the Shadowlands Taint and to your attack rolls when attacking a foe who is a Shadowlands creature or who you know to be Tainted."
+      },
+      "2": {
+        "name": "To Ride The Darkness",
+        "description": "Witch-Hunters do not confi ne themselves to rooting out Tainted men and women—they also learn how to fi ght the creatures of the Shadowlands, and spend considerable time studying their strengths and weaknesses. Any time you are confronted by a Shadowlands creature, you may take a Free Action to roll Lore: Shadowlands / Intelligence at TN 20 to recall either one specifi c strength (such as Invulnerability) or one specifi c weakness (such as jade) for that creature. You choose whether you recall a strength or a weakness, but the GM chooses the exact information. You may Raise on this roll to learn additional pieces of information—one strength or weakness per Raise."
+      },
+      "3": {
+        "name": "To Strike The Darkness",
+        "description": "At this rank the Witch-Hunter learns to call on the power of purity to guide and strengthen his blows. You may make melee attacks as a Simple Action when your opponent is a Shadowlands creature or when you know your opponent to be Tainted."
+      },
+      "4": {
+        "name": "To Repel The Darkness",
+        "description": "The Witch-Hunter's intense study and spiritual training now gives him access to esoteric powers and makes it almost impossible for the forces of darkness to deceive him. You gain a +3k0 bonus to the roll for your Rank One ability to detect the Taint and to the roll for your Rank Two ability. In addition, you may learn one Kiho. (If the optional rule allowing Kiho for non-Brotherhood monks is in effect, this Kiho does not count against the maximum number of Kiho you can learn, although it is subject to their other mechanical limitations such as Mastery Level.) "
+      },
+      "5": {
+        "name": "To Shatter The Darkness",
+        "description": "The Witch-Hunter is now the true nemesis of Jigoku's forces, able to strike down his enemies with unmatched power. You gain a +4k1 bonus to your attack and damage rolls against Shadowlands creatures and against foes you know to be Tainted. This stacks with the attack bonus from your Rank One technique."
+      }
+    }
+  },
+  "crane_ob_daidoji_scout_school": {
+    "name": "Daidoji Scout School",
+    "traits": ["reflexes"],
+    "honor": 3.5,
+    "tags": ["bushi"],
+    "skills": ["athletics","kenjutsu","knives","hunting","kyujutsu","stealth"],
+    "emphases": [
+      {
+        "skill": "hunting",
+        "emphases": ["Traps"]
+      },
+      {
+        "skill": "kyujutsu",
+        "emphases": ["Yumi"]
+      },
+      {
+        "skill": "stealth",
+        "emphases": ["Sneaking"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["bugei","low"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Surveying The Land",
+        "description": "The Daidoji scouts are masters of observation and pursuit, tracking their opponents, harassing them, and delaying them with traps and ambushes. You gain +1k0 with Stealth and Hunting skill rolls. Any rural/improvised traps you create are exceptionally deadly, infl icting +1k1 extra damage."
+      },
+      "2": {
+        "name": "Scouring The Shadows",
+        "description": "Daidoji scouts strike from concealment, hitting their opponents with swift and devastating attacks. When attacking an unaware opponent you gain a bonus of +2k0 to your attack roll."
+      },
+      "3": {
+        "name": "Weaken The Resistance",
+        "description": "The Daidoji learn to strike with precision, hitting their opponents in weak spots and evading their armor. You may ignore any Reduction your opponent gains from wearing armor or from school techniques. (You cannot ignore the natural Reduction of creatures, or Reduction bestowed by magical or supernatural effects.) If you attack an opponent who has no Reduction from armor or techniques, you gain +1k0 to your damage rolls."
+      },
+      "4": {
+        "name": "Strike And Move",
+        "description": "The Daidoji scout strikes with the swiftness of the wind itself. You may make attacks as a Simple Action instead of a Complex Action when wielding a katana, wakizashi, knife, or bow. Your traps now infl ict +2k1 extra damage."
+      },
+      "5": {
+        "name": "Cunning Of Daidoji",
+        "description": "The true master of the Daidoji scout school needs only a single strike, for his opponent never survives to see the second one. During a skirmish, you may spend a Void Point as a Free Action to attempt a deadly precision strike on your next attack (this may be done with a melee or a ranged attack, but cannot be done more than once in the same Turn). Any Maneuvers called on this attack require 1 less Raise (to a minimum of 1 Raise), and if you successfully hit you gain a bonus of +1k1 to your Damage roll. Furthermore, if your opponent is unaware of you, your Raises on this attack are not limited by your Void."
+      }
+    }
+  },
+  "crane_ob_kakita_artisan_school": {
+    "name": "Kakita Artisan School",
+    "traits": ["awareness"],
+    "honor": 5.5,
+    "tags": ["artisan"],
+    "skills": ["courtier","etiquette","games_sadane","sincerity"],
+    "wildcards": [
+      {
+        "tags": ["artisan","perform"],
+        "ranks": 1
+      },
+      {
+        "tags": ["artisan","perform"],
+        "ranks": 1
+      },
+      {
+        "tags": ["artisan","perform"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Soul Of The Artisan",
+        "description": "The Kakita Artisan is taught from earliest youth to focus on one specifi c form of art above all others, devoting himself to it heart and soul and pursuing the goal of absolute perfection within its forms. Of course, in keeping with Crane tradition the Artisan is also taught to be a ruthless critic to any artistic rivals. Select one of your three chosen School Skills (Acting, an Artisan skill, or a Perform skill) as the focus of your artistic training. This becomes your chosen art. When making skill rolls with your chosen art, you gain a +2k0 bonus and your Raises are not limited by your Void. Any time you are using Games: Sadane to criticize someone else's art or performance, you gain a Free Raise on your skill roll."
+      },
+      "2": {
+        "name": "The Soul's Dream",
+        "description": "The Kakita Artisan is taught to use his art to affect those around them, inspiring emotions and shifting the views of the audience. When presenting a public performance or display of you chosen art, you may make a Contested Social Roll of [chosen art]/Awareness against the Etiquette (Courtesy)/Willpower of the audience members. Those audience members who fail their rolls are profoundly swayed and their emotions shift in a direction you desire—becoming friendlier, more hostile, calmer, or whatever other emotional shift your art is designed to evoke. This emotional shift normally lasts a number of hours equal to your Insight Rank. Note that not all persons are equally susceptible to the impact of art—the GM may rule that a particular individual is affected for a shorter period of time, or award a bonus to the resistance roll for persons whose emotions are diffi cult to manipulate. The GM should normally have each individual audience member roll separately to resist this technique (this should always be done for PCs or important NPCs), but with large groups of ordinary NPCs the GM can opt to save time by making a single roll for most or all of them."
+      },
+      "3": {
+        "name": "Free The Spirit",
+        "description": "You may select a second of your three chosen School Skills as a chosen art, and all Technique bonuses and effects which applied to your fi rst chosen art now apply to it as well. The bonus to your chosen art skill rolls increases to +2k1."
+      },
+      "4": {
+        "name": "Undying Name",
+        "description": "Your art is now so magnifi cent that you can make and break the reputations of others by depicting or referencing them in your work. You may create a piece of art referring to another person by rolling [chosen art]/Awareness at a TN equal to 20 plus 5x their Glory Rank. With a success, you may either increase (if your art is complimentary) or decrease (if it is critical) their Glory by up to 5 points, plus an additional 5 points for every Raise you make on the roll. You may call two additional Raises to infl ict a gain of Infamy on the target instead of a Glory change. You may not target the same person with this technique more than once every six months. Furthermore, persons of high station cannot have their reputations damaged by artists lacking in prestige—the target's Status Rank cannot exceed your Glory or Status Rank (whichever is higher)."
+      },
+      "5": {
+        "name": "Gift Beyond Price",
+        "description": "You art is now so perfect that a gift of it can profoundly change another person's attitude toward you and your clan. Once per month, you may give a gift of your chosen art to someone from another clan or faction. Make a Contested Social Roll of your [chosen art]/Awareness against their Etiquette (Courtesy)/Willpower. (The GM may award Free Raises to you or the target of this technique based on the type and subject of the art and the attitudes and beliefs of the target—some people are easier to sway than others.) With a success, you permanently alter their attitude toward your clan/faction in a favorable direction. With a failure, the target becomes aware of your attempt to manipulate his emotions, and his attitude toward your clan/ faction permanently shifts in a hostile direction."
+      }
+    }
+  },
+  "lion_ob_matsu_beastmaster_school": {
+    "name": "Matsu Beastmaster School",
+    "traits": ["agility"],
+    "honor": 5.5,
+    "tags": ["bushi"],
+    "skills": ["animal_handling","animal_handling","battle","defense","iaijutsu","kenjutsu"],
+    "wildcards": [
+      {
+        "tags": ["bugei"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "One With The Pride",
+        "description": "You have trained in the highly secretive dojo of the Matsu Beastmasters and have forged a bond with one of the legendary Lion warcats. The lion will accompany you wherever you go and follows basic commands without question. No lion will ever attack you without being compelled to do so in some way. You may direct one of your warcats to Attack as a Complex Action. Any one warcat who is not attacking will use the Guard Action to protect you."
+      },
+      "2": {
+        "name": "Heart Of The Beast",
+        "description": "Your training with the warcats has increased your physical abilities as well as your mental bond with your lions. An additional lion joins your pride. You and your companion lions gain the creature trait of Swift 2 (as described in the L5R 4th Edition core rules, page 320), and all of your lions gain an additional Wound Rank that changes the end of their progression from a normal lion's to: 36: +15, 60: Dead."
+      },
+      "3": {
+        "name": "The Ferocity Within",
+        "description": "You strike as fi ercely as the lions with whom you have trained. When wielding a katana, wakizashi, magari-yari, nage-yari, or any knife, or when fi ghting unarmed, you may make melee attacks as a Simple Action. Additionally, you may direct one of your warcats to Attack as a Simple Action."
+      },
+      "4": {
+        "name": "All As One",
+        "description": "The fury of the beastmaster and his pride is a whispered legend among your clan's enemies, and for good reason. Members of your pride may make two claw attacks per Round instead of the normal one. You and all members of your pride gain a bonus of +2k1 on all damage rolls made when fi ghting alongside one another. Finally, when you direct a warcat to Attack (a Complex Action for lions), the warcat may also make a Simple Move Action during the same Round."
+      },
+      "5": {
+        "name": "With The Soul Of A Lion",
+        "description": "United by your leadership and companionship, your pride has become fearsome indeed. An additional lion joins your pride. All of your warcats gain +10 Armor TN, +2 Reduction, and +2 Fear."
+      }
+    }
+  },
+  "mantis_ob_yoritomo_shugenja_school": {
+    "name": "Yoritomo Shugenja School",
+    "traits": ["perception"],
+    "affinities": ["water"],
+    "deficiencies": ["earth"],
+    "honor": 4.5,
+    "tags": ["shugenja"],
+    "skills": ["athletics","calligraphy","knives","lore_theology","meditation","sailing"],
+    "emphases": [
+      {
+        "skill": "sailing",
+        "emphases": ["Navigation"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Child Of The Sea",
+        "description": "The family line of the Yoritomo who possess the talent for magic have a strong bond with the sea and with weather as a whole. You may expend one spell slot to alter the wind conditions in your current location by one degree. If you also spend a Void Point, you may instead shift the entire weather status one degree. You may expend a maximum combined total of spell slots and/or Void Points equal to your School Rank each Round to enact these shifts. These shifts affect an area a number of miles equal to your School Rank in all directions from your current location. You gain a Free Raise on all Thunder spells."
+      }
+    }
+  },
+  "mantis_ob_mantis_brawler_school": {
+    "name": "Mantis Brawler School",
+    "traits": ["agility"],
+    "honor": 3.5,
+    "tags": ["bushi"],
+    "skills": ["athletics","commerce","intimidation","jiujutsu","knives","sailing"],
+    "wildcards": [
+      {
+        "tags": ["weapon"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Way Of The Drunken Fist",
+        "description": "The basic techniques of the Mantis Brawlers are based on the need to prevail in chaotic fi ghts on tilting ship decks… or when reeling drunk through a sake house. Brawlers are tough and slippery fi ghters who evade the grip of their enemies while striking them at every opportunity. If you are Prone, you do not suffer any penalties to your Armor TN or to your attacks with Small weapons (or when unarmed). You still gain the Prone Armor TN bonus against ranged attacks. Also, you gain a bonus of +1k0 to rolls made to take control of Grapples and to your damage rolls with unarmed strikes, improvised weapons, and Small weapons."
+      },
+      "2": {
+        "name": "Drunk Loses His Sandal",
+        "description": "Mantis Brawlers learn to be swift and fl exible fi ghters who attack their foes from unexpected directions, often deliberately offering the appearance of weakness in order to create openings. If you successfully perform the Feint maneuver, you may choose to reduce the extra damage from the Feint by 5 in order to add +5 to your Armor TN until the start of your next Turn; if you were Prone when you performed the Feint, you add +10 instead. Also, immediately after an enemy attack resolves against you (whether or not the attack hit or infl icted damage on you), you may take a Free Action to become Prone."
+      },
+      "3": {
+        "name": "Drunk Never Falls",
+        "description": "The third lesson of the Mantis Brawler is to win even when exhausted, dead drunk, or clubbed on the head. During a skirmish, you do not suffer any penalties for being Fatigued or Dazed, nor do you suffer any penalties for intoxication. If you become Stunned, you may still take one Simple Action per Round."
+      },
+      "4": {
+        "name": "Two Drunks Dance",
+        "description": "The erratic bobbing, squirming, and weaving of the Mantis Brawler creates additional opportunities for him to attack his foe. You may attack as a Simple Action when fi ghting unarmed, with an improvised weapon, or with a Small weapon."
+      },
+      "5": {
+        "name": "Drunk Pounds A Door",
+        "description": "The final lesson of the Mantis Brawler is to strike so hard his foe never gets the chance to strike back. When making a melee attack you may spend a Void Point to deliver a fi erce shattering blow; this attack gains a bonus of +4k1 to both the attack roll and the damage roll. If you are Prone, the bonus is +4k2 instead."
+      }
+    }
+  },
+  "mantis_ob_tsuruchi_bounty_hunter_school": {
+    "name": "Tsuruchi Bounty Hunter School",
+    "traits": ["agility"],
+    "honor": 4.5,
+    "tags": ["bushi"],
+    "skills": ["athletics","intimidation","investigation","kenjutsu","kyujutsu","lore_underworld","hunting"],
+    "emphases": [
+      {
+        "skill": "hunting",
+        "emphases": ["Tracking"]
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "A Hunter's Sense",
+        "description": "A Tsuruchi bounty hunter is well known as a fi erce and terrible opponent of all who seek to evade justice, and even those who are without guilt fi nd them intimidating. You gain a bonus of +1k1 to any Intimidation Skill Roll used against someone of lower caste who you believe can help you fi nd your prey. When interacting with samurai, this bonus is reduced to +1k0 but applies to all Social Skill Rolls, not just Intimidation. Also, when you are hunting a particular target, you may roll additional unkept dice equal to your School Rank on any Hunting or Investigation Skill Rolls used to track the quarry down."
+      },
+      "2": {
+        "name": "No Prey Escapes",
+        "description": "A true master of the Tsuruchi method has an encyclopedic knowledge of criminals throughout the Empire and can use them as tools to capture his prey. You may spend a Void Point to automatically succeed at a Lore: Underworld Skill Roll to identify any criminals in an area who you might be able to press for information regarding your prey. You lose Honor as normal for associating with such individuals, however."
+      },
+      "3": {
+        "name": "Justice Of The Wasp",
+        "description": "The Tsuruchi hunters are merciless, but have a reputation for bringing their prey back alive to suffer a proper sentence for their criminal acts. When facing an opponent who has been declared guilty of a crime by an Imperial or a higher Mantis authority, you may make the Disarm or Knockdown Maneuvers for one Raise less than normal. If you successfully execute one of these Maneuvers against an opponent, that opponent is automatically Dazed."
+      },
+      "4": {
+        "name": "Twin Sting Strikes",
+        "description": "The justice of a Tsuruchi is swift and without mercy. You may make ranged attacks as a Simple Action when wielding a yumi. Additionally, if facing any target decreed guilty of a crime by an Imperial or a higher Mantis authority, you may also make melee attacks as a Simple Action when wielding a katana or any knife."
+      },
+      "5": {
+        "name": "Eyes Of The Wasp",
+        "description": "The worst truth a bounty hunter learns is that anyone can be a fugitive; thus a bounty hunter makes careful assessments of everyone he meets. When you identify a samurai using a Lore: Heraldry Skill Roll, you not only learn his Glory but also his Honor Rank and all Social and Mental Disadvantages. Also, any opponent who may be targeted by your Rank 3 Technique is now automatically Dazed if you successfully hit them with an attack, regardless of whether or not you use a Disarm or Knockdown Maneuver on them."
+      }
+    }
+  },
+  "scorpion_yogo_wardmaster_school": {
+    "name": "Yogo Wardmaster",
+    "traits": ["intelligence"],
+    "affinities": ["special"],
+    "deficiencies": ["special"],
+    "honor": 1.5,
+    "tags": ["shugenja"],
+    "skills": ["etiquette","investigation","lore_theology","spellcraft","stealth","calligraphy"],
+    "emphases": [
+      {
+        "skill": "calligraphy",
+        "emphases": ["Cipher"]
+      }
+    ],
+    "wildcards": [
+      {
+        "tags": ["high","low"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Way of the Wardmaster",
+        "description": "The Yogo are masters at creating wards for later use. When you cast any spell with the Wards keyword, you may Raise a number of times equal to the spell's Mastery Level to instead place the spell into a paper ward. Once this is done, the paper ward will hold the spell “latent” until you activate it (as a Simple Action) by placing it on a target. Only you may activate your wards. The ward sticks to the target and immediately discharge the spell, whose duration is measured normally from that moment. If an area-effect spell is discharged onto a living target, it will only affect that target. Placing a paper ward on an unwilling target requires an unarmed melee attack using a roll of Spellcraft / Agility. An active ward may be physically torn/destroyed, which instantly ends any ongoing spell effects; this requires a Simple Action. You cannot recover the spell slot of a spell which has been cast into a paper ward until after the ward is discharged. If a ward is damaged or destroyed before it is discharged, it loses all power and you may regain the spell slot normally."
+      }
+    }
+  },
+  "unicorn_moto_death_priests": {
+    "name": "Moto Death Priests",
+    "traits": ["willpower"],
+    "affinities": ["earth"],
+    "deficiencies": ["air"],
+    "honor": 3.5,
+    "tags": ["shugenja"],
+    "skills": ["athletics","horsemanship","hunting","lore_theology","meditation","spellcraft"],
+    "wildcards": [
+      {
+        "tags": ["any"],
+        "ranks": 1
+      }
+    ],
+    "techniques": {
+      "1": {
+        "name": "Blessings of the Shi-Tien Yen-Wang",
+        "description": "The Moto Death Priests carry the favor of gaijin death gods and bestow their blessings to their enemies. As a Simple Action you may sacrifice a spell slot and target one enemy (within a maximum range equal to your School Rank x 100 feet). Make a Contested Willpower Roll against that opponent. If you are successful, the target may not benefit from exploding dice or from Advantages that allow him to re-roll a roll. This effect lasts for a number of Rounds equal to your School Rank. You gain a Free Raise on any spell with the Travel key- word."
+      }
+    }
+  }
+}
