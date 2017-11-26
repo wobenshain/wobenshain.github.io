@@ -23,7 +23,7 @@
     <select name="school">
         <option value=""><%=(clan==="None")?"None":"----- Select School -----"%></option>
 <%  for (var schoolName in schools) { %>
-        <option value="<%=schoolName%>"<%=(school===schoolName)?" SELECTED":""%>><%=schoolName%></option>
+        <option value="<%=schoolName%>"<%=(school===schoolName)?" SELECTED":""%>><%=schools[schoolName].name%></option>
 <%  } %>
     </select>
 </div>
