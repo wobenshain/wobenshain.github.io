@@ -12,6 +12,7 @@ app.MainView = Backbone.View.extend({
         app.views.inputs = new app.InputsView({
             model: app.models.inputs
         });
+        /*
         app.models.controls = new app.ControlsModel({
             parent: this.$el
         });
@@ -22,6 +23,7 @@ app.MainView = Backbone.View.extend({
         app.views.results = new app.ResultsView({
             model: app.models.results
         });
+        */
     }
 });
 

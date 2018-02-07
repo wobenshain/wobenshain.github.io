@@ -1,18 +1,34 @@
-<ul class="horizontal">
-  <li>
-    <label for="project_id">Project ID:</label>
-    <input type="text" name="project_id" value="<%=project_id%>"/>
-  </li>
-  <li>
-    <label for="cel_files">Select CEL files:</label>
-    <div></div>
-  </li>
-  <li>
-    <label for="pheno_file">Choose phenotype file:</label>
-    <div></div>
-  </li>
-  <li>
-    <label for="contrast_file">Choose contrast file:</label>
-    <div></div>
-  </li>
-</ul>
+<div class="row">
+  <div class="col-xs-12">
+    <h2>CCBR Microarray analysis workflow</h2>
+    <h5>(For Affymetrix human and mouse data)</h5>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <div class="form-group">
+      <label for="project_id">Enter Project ID (with no spaces):</label>
+      <input name="project_id" type="text" class="form-control" value=""/>
+    </div>
+  </div>
+  <div class="col-xs-6">
+    <div class="form-group">
+      <label for="analysis_type">Choose type of analysis</label>
+      <select name="analysis_type" class="form-control">
+        <option value="">--- Select Analysis Type ---</option>
+        <option value="CEL">Upload CEL files</option>
+        <option value="GEO" disabled>Analyze GEO data</option>
+      </select>
+    </div>
+  </div>
+  <div class="col-xs-12">
+    <div class="form-group">
+      <label>Select CEL files</label>
+      <input name="cel_files" type="file" multiple/>
+      <h5>Choose short descriptive file names with no spaces (eg Ctl1.CEL, KO1.CEL)</h5>
+    </div>
+  </div>
+  <div class="col-xs-12">
+    <button id="CELbutton" type="button" class="btn btn-default action-button shiny-bound-input">Display</button>
+  </div>
+</div>
