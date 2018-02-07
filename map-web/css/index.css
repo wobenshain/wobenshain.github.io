@@ -1,0 +1,70 @@
+body {
+  max-width: 1280px;
+  margin: 0px auto;
+}
+
+.backgrounded {
+  background: #EEE;
+  border-radius: 5px;
+  margin: 5px 0px;
+  padding: 5px;
+}
+
+#map-inputs li ~ li:not(.show),
+#map-controls:not(.show),
+#map-controls li ~ li:not(.show),
+#map-results:not(.show) {
+   xdisplay:none;
+}
+
+#map-results ul > li:not(:hover) ul {
+  xdisplay: none;
+}
+
+#map-inputs ul,
+#map-results ul {
+  width: 100%;
+}
+
+#map-results ul ul {
+  width: auto;
+}
+
+ul.horizontal {
+  display: table;
+  padding-left: 1em;
+}
+ul.horizontal > li {
+  display: table-cell;
+}
+#map-controls {
+  margin-top: 3em;
+}
+#map-controls li {
+  padding: 0px 5px;
+}
+
+#map-results > ul {
+  display: block;
+  list-style: none;
+}
+
+#map-results > ul > li {
+  float: left;
+}
+
+#map-results ul > li {
+  position: relative;
+}
+
+#map-results ul > li ul {
+  border: 1px solid black;
+  display: inline-block;
+  list-style: none;
+  position: absolute;
+  padding: 5px;
+  right: 0px;
+}
+#map-results ul > li ul li {
+  white-space: no-wrap;
+}
