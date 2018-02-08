@@ -10,15 +10,8 @@ body {
   padding: 5px;
 }
 
-#map-inputs li ~ li:not(.show),
-#map-controls:not(.show),
-#map-controls li ~ li:not(.show),
-#map-results:not(.show) {
-   xdisplay:none;
-}
-
-#map-results ul > li:not(:hover) ul {
-  xdisplay: none;
+#map-inputs .row > div ~ div {
+    display:none;
 }
 
 #map-inputs ul,

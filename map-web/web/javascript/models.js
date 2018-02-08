@@ -2,7 +2,7 @@ app.TemplatesModel = Backbone.Model.extend({
     defaults: {},
     fetch: function() {
         var $that = this,
-            templateList = ["main","inputs","upload","controls","results"],
+            templateList = ["main","inputs","upload","cel","grouping","results"],
             templateObject = {},
             deferred = $.Deferred(),
             after = _.after(templateList.length,function() {
@@ -28,9 +28,8 @@ app.InputsModel = Backbone.Model.extend({
     defaults: {
         parent: {},
         project_id: "",
-        cel_files: [],
-        pheno_file: "",
-        contrast_file: ""
+        analysis_type: "",
+        cel_files: []
     }
 });
 
@@ -39,14 +38,17 @@ app.UploadModel = Backbone.Model.extend({
         parent: {},
         input: {},
         name: "",
-        multiple: false
+        multiple: false,
+        accepts: null
     }
 });
 
-app.ControlsModel = Backbone.Model.extend({
-    defaults: {
-        parent: {}
-    }
+app.CelModel = Backbone.Model.extend({
+    defaults: {}
+});
+
+app.GroupingModel = Backbone.Model.extend({
+    defaults: {}
 });
 
 app.ResultsModel = Backbone.Model.extend({
