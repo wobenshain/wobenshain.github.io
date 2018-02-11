@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "express": "^4.16.2",
+    "nodemon": "^1.14.12",
     "r-script": "0.0.3"
   },
   "devDependencies": {},

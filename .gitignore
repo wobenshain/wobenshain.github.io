@@ -3,7 +3,6 @@
 localserver.py
 sseditor/*
 */examples/*
-*/package-lock.json
 */node_modules/*
 *annotation*.txt
 *.vscode
