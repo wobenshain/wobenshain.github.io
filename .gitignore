@@ -6,3 +6,4 @@ sseditor/*
 */package-lock.json
 */node_modules/*
 *annotation*.txt
+*.vscode
