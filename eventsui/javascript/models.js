@@ -19,7 +19,7 @@ app.EventModel = Backbone.Model.extend({
 
 app.EventsCollection = Backbone.Collection.extend({
     model: app.EventModel,
-    url: 'http://localhost/output.js'
+    url: '/output.js'
 });
 
 app.MainModel = Backbone.Model.extend({
