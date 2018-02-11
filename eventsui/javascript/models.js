@@ -12,14 +12,17 @@ app.EventModel = Backbone.Model.extend({
         value: -1
     },
     parse: function(data) {
-        data.time = Date.parse(data.time);
+        data.time = new Date(data.date).getTime();
+        data.type = data.name;
+        delete data.date;
+        delete data.name;
         return data;
     }
 });
 
 app.EventsCollection = Backbone.Collection.extend({
     model: app.EventModel,
-    url: '../output.js'
+    url: 'https://sample-api.pascalmetrics.com/api/events?api-key=nu11p0int3r!'
 });
 
 app.MainModel = Backbone.Model.extend({
@@ -31,7 +34,7 @@ app.MainModel = Backbone.Model.extend({
 app.VisualModel = Backbone.Model.extend({
     defaults: {
         eventSubset: [],
-        graphType: 'impact',
+        graphType: 'scatter',
         graphLimit: 1000
     }
 });

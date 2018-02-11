@@ -82,7 +82,11 @@ app.MainView = Backbone.View.extend({
 app.TableView = Backbone.View.extend({
   el: "#table",
   initialize: function () {
-      this.model.on({
+    var sortAsc = this.model.get('sortAsc'),
+        sortHeader = this.model.get('sortHeader'),
+        eventSubset = this.model.get('eventSubset');
+    eventSubset.sort(app.sorts.property(sortHeader,sortAsc));
+    this.model.on({
           'reset': this.render,
           'change:eventSubset': this.triggerUpdate,
           'change:pageNumber': this.renderTable,
@@ -279,7 +283,8 @@ app.VisualView = Backbone.View.extend({
     var eventSubset = this.model.get('eventSubset'),
         limit = this.model.get('graphLimit'),
         type = this.model.get('graphType');
-    if (limit !== "") {
+    if (eventSubset.length == 0) return;
+    if (limit !== "" && limit < eventSubset.length) {
       var eventSlice = Math.floor(Math.random()*(eventSubset.length-1000));
       eventSubset = eventSubset.slice(eventSlice,eventSlice+1000);
     }
@@ -292,15 +297,32 @@ app.VisualView = Backbone.View.extend({
         };
 
     switch (type) {
+      case 'scatter':
+        var dataMap = {};
+        eventSubset.map(function(event) {
+          dataMap[event.type] = dataMap[event.type]||{x:[],y:[],mode:'lines',type:'scatter',name:event.type};
+          dataMap[event.type].x.push(app.functions.formatTimestamp(event.time));
+          dataMap[event.type].y.push(event.value);
+        });
+        for (var prop in dataMap) {
+          data.push(dataMap[prop]);
+        }
+        layout.title = 'Comparitive Values';
+        break;
       case 'marker':
         data = [{
           x: eventSubset.map(function(event) { return app.functions.formatTimestamp(event.time); }),
           y: eventSubset.map(function(event) { return event.type; }),
           mode: 'markers',
-          marker: {
-            size: eventSubset.map(function(event) { return event.value; })
-          }
+          marker: { }
         }];
+        var size = eventSubset.map(function(event) { return event.value; }),
+            mean = math.mean(size),
+            std = math.std(size);
+        size = size.map(function(value) { return (value-mean)/std; });
+        var min = 1-Math.min.apply(this,size);
+        size = size.map(function(value) { return (value+min)*5; });
+        data[0].marker.size = size;
         layout.title = 'Event Magnitude';
         break;
       case 'incidents':
@@ -332,7 +354,6 @@ app.VisualView = Backbone.View.extend({
         }
         data = [data];
         layout.title = 'Impact by Type';
-        console.log(data);
         break;
       default:
         break;
