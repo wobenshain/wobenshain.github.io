@@ -2,7 +2,7 @@ app.TemplatesModel = Backbone.Model.extend({
     defaults: {},
     fetch: function() {
         var $that = this,
-            templateList = ["main","inputs","upload","cel","grouping","results"],
+            templateList = ["main","inputs","upload","files","grouping","results"],
             templateObject = {},
             deferred = $.Deferred(),
             after = _.after(templateList.length,function() {

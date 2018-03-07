@@ -26,4 +26,8 @@ app.get('/test', function(req, res) {
   );
 });
 
+app.get('/GSE', function(req, res) {
+  res.send(req.params);
+});
+
 app.listen(80);

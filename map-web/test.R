@@ -1,5 +1,78 @@
-needs(jsonlite)
-needs(oligo)
+library(GEOquery)
+library(pd.mogene.2.0.st)
+library(mogene20sttranscriptcluster.db)
+library(pd.hg.u133.plus.2)
+library(hgu133plus2.db)
+library(pd.hugene.2.0.st)
+library(hugene20sttranscriptcluster.db)
+library(pd.clariom.s.human.ht)
+library(clariomshumanhttranscriptcluster.db)
+library(pd.clariom.s.human)
+library(clariomshumantranscriptcluster.db)
+library(pd.clariom.s.mouse.ht)
+library(clariomsmousehttranscriptcluster.db)
+library(pd.clariom.s.mouse)
+library(clariomsmousetranscriptcluster.db)
+library(pd.mouse430.2)
+library(mouse4302.db)
+library(pd.hg.u133a)
+library(hgu133a.db)
+library(pd.hugene.1.0.st.v1)
+library(hugene10sttranscriptcluster.db)
+library(pd.mogene.1.0.st.v1)
+library(mogene10sttranscriptcluster.db)
+library(pd.hg.u133a.2)
+library(hgu133a2.db)
+library(pd.huex.1.0.st.v2)
+library(huex10sttranscriptcluster.db)   
+library(pd.hg.u219)
+library(hgu219.db)
+library(pd.mg.u74av2)
+library(mgu74av2.db)
+library(pd.mouse430a.2)
+library(mouse430a2.db)
+library(pd.moe430a)
+library(moe430a.db)
+library(pd.hg.u95av2)
+library(hgu95av2.db)
+library(pd.hta.2.0)
+library(hta20transcriptcluster.db)
+library(pd.moex.1.0.st.v1)
+library(moex10sttranscriptcluster.db)
+library(pd.hg.u133b)
+library(hgu133b.db)
+library(pd.hugene.1.1.st.v1)
+library(hugene11sttranscriptcluster.db)
+library(pd.mogene.1.1.st.v1)
+library(mogene11sttranscriptcluster.db)
+library(limma)
+library(oligo)
+library(gplots)
+library(geneplotter)
+library(multtest)
+library(rgl)
+library(rglwidget)
+library(DT)
+library(getopt)
+library(annotate)
+library(knitr)
+library(reshape)
+library(RColorBrewer)
+library(mixOmics)
+library(calibrate)
+library(rmarkdown)
+library(ggplot2)
+library(ggfortify)
+library(shinyRGL)
+library(plotly)
+library(htmltools)
+library(heatmaply)
+library(Biobase)
+library(GSVA)
+library(GSEABase)
+library(pheatmap)
+library(viridis)
+library(dendsort)
 
 
 raw <- function(input) {
@@ -66,7 +139,40 @@ suppressWarnings(suppressMessages({
     withCallingHandlers(
       {
         input = fromJSON(input[[1]])
-        pData(raw(input))
+        #user input: Project ID (cannot be NA)
+        projectId = 'test'
+        
+        #user input: GSE number
+        id = input$gseid
+        if (id=='8 digit GSE code') {
+          id = gsub(" ","",id,fixed=TRUE)  
+          #gets meta data 
+          gds <- getGEO(id, GSEMatrix = F,getGPL=T,AnnotGPL=T)
+          
+          #creates empty table
+          mytable=matrix("",length(GSMList(gds)),3)
+          colnames(mytable)=c("gsm","title","description")
+          
+          #Populates table with meta data
+          # (For CEL file input, this table will have one column for CEL file name, 
+          # an option would be to allow the user to select unique ids or upload a file assigning the samples to ids)
+          for (k in 1:length(GSMList(gds)))
+          {
+            if (is.null(Meta(GSMList(gds)[[k]])$description)) {    
+              mytable[k,] <-c(Meta(GSMList(gds)[[k]])$geo_accession[1], Meta(GSMList(gds)[[k]])$title[1], 'No data available')
+            } else {
+              mytable[k,] <-c(Meta(GSMList(gds)[[k]])$geo_accession[1], Meta(GSMList(gds)[[k]])$title[1], Meta(GSMList(gds)[[k]])$description[1])
+            }
+          }
+        } else {
+          #example of a way to process CEL files once they're uploaded:
+          cels = upload_cel_files_here
+          for (k in 1:length(cels))
+          {
+           mytable[k,]<-c(cels[k])
+          }
+          mytable <- data.frame(mytableCEL)
+        }
       },
       message=function(m) {
         print(m$message)
