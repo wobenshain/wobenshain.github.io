@@ -1,0 +1,82 @@
+#templates {
+  display: none !important;
+}
+
+.col-xs-12 > * {
+  width: 100%;
+}
+
+thead tr:last-child th:not(.borderless),
+thead tr:last-child td:not(.borderless) {
+    background-image: url('../images/sort.svg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+    cursor: pointer;
+}
+thead tr:last-child th.asc,
+thead tr:last-child td.asc {
+    background-image: url('../images/sort_asc.svg');
+}
+thead tr:last-child th.dsc,
+thead tr:last-child td.dsc {
+    background-image: url('../images/sort_dsc.svg');
+}
+th, td {
+  padding: 8px 18px;
+}
+.form-inline {
+  padding: 20px 0px;
+}
+.form-inline > div {
+  float: left;
+  margin-right: 1em;
+}
+.form-inline > div:last-child:not(:first-child) {
+  float: right;
+}
+#pagingRow > div {
+  padding: 12px 0px;
+}
+#pagingRow ul {
+  list-style: none;
+  margin: -12px 0px;
+  padding-left: 0px;
+}
+#pagingRow li {
+  border: 1px solid transparent;
+  border-radius: 2px;
+  display: inline-block;
+  min-width: 1.5em;
+  padding: 6px 12px;
+}
+#pagingRow li:hover,
+#pagingRow li.active {
+  background: #585858;
+  border: 1px solid #111;
+}
+#pagingRow li:hover,
+#pagingRow li.active {
+  background: none;
+  border: 1px solid transparent;
+}
+#pagingRow li a {
+  background: #FFF;
+  border: 1px solid #DDD;
+  color: #337ab7;
+  cursor: pointer;
+  display: block;
+  line-height: 1.42857143;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+#pagingRow li.active a {
+  background: #337ab7;
+  border-color: #337ab7;
+  color: #FFF;
+  cursor: default;
+}
+#pagingRow li.disabled a {
+  color: #777;
+  cursor: not-allowed;
+}

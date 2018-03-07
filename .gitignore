@@ -5,3 +5,4 @@ sseditor/*
 */examples/*
 */node_modules/*
 *annotation*.txt
+*.vscode
