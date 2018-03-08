@@ -12,10 +12,6 @@ app.MainView = Backbone.View.extend({
     app.views.inputs = new app.InputsView({
       model: app.models.inputs
     });
-    app.models.cel = new app.CelModel();
-    app.views.cel = new app.CelView({
-      model: app.models.cel
-    });
   }
 });
 
@@ -24,9 +20,8 @@ app.InputsView = Backbone.View.extend({
   initialize: function() {
     this.template = _.template(app.templates.get('inputs'));
     this.model.on({
-      'change:project_id': this.showNext,
-      'change:analysis_type': this.showNext,
-      'change:cel_files': this.showNext
+      'change:project_id': this.showAnalysisType,
+      'change:analysis_type': this.showFiles
     }, this);
     this.render.apply(this);
   },
@@ -38,34 +33,43 @@ app.InputsView = Backbone.View.extend({
     $(e.target).val($(e.target).val().replace(/[^A-Za-z0-9._]/g,''));
     app.events.updateModel.call(this,e);
   },
-  showNext: function(e) {
-    for (var prop in e.changed) {
-      var val = e.changed[prop],
-        next = this.$el.find('[for="'+prop+'"]').closest('div').next(),
-        show = Array.isArray(val)?val.length > 0:val!="";
-      if (next.length > 0) {
-        next.toggleClass('show',show);
-      } else {
-        console.log(this.model.get('parent').find('#map-controls'));
-        this.model.get('parent').find('#map-controls').toggleClass('show',show);
-      }
-    }
-  },
   render: function() {
     this.$el.html(this.template(this.model.attributes));
-    app.models.cel_files = new app.UploadModel({
-      input: this.model,
-      name: 'cel_files',
-      multiple: true,
-      accepts: ".cel"
-    });
-    app.views.cel_files = new app.UploadView({
-      el: '[for="cel_files"] + div',
-      model: app.models.cel_files
-    });
+  },
+  showAnalysisType: function() {
+    this.$el.find('[name="analysis_type"]').parent().toggleClass('show',this.model.get('project_id') !== '');
+  },
+  showFiles: function() {
+    var type = this.model.get('analysis_type');
+    app.models.files = new app.FilesModel();
+    switch (type) {
+      case 'CEL':
+        app.views.files = new app.CelsView({
+          model: app.models.files
+        });
+        break;
+      case 'GEO':
+        app.views.files = new app.GeoView({
+          model: app.models.files
+        });
+        break;
+  default:
+    }
   }
 });
 
+app.GeoView = Backbone.View.extend({
+  el: '#map-files',
+  initialize: function() {
+    this.template = _.template(app.templates.get('geo'));
+    this.render.apply(this);
+  },
+  render: function() {
+    this.$el.html(this.template(this.model.attributes));
+  }
+});
+
+/*
 app.UploadView = Backbone.View.extend({
   initialize: function(e) {
     this.template = _.template(app.templates.get('upload'));
@@ -90,42 +94,4 @@ app.UploadView = Backbone.View.extend({
     this.$el.html(this.template(this.model.attributes));
   }
 });
-
-app.CelView = Backbone.View.extend({
-  el: '#map-cel',
-  initialize: function() {
-    this.template = _.template(app.templates.get('cel'));
-    this.render.apply(this);
-  },
-  render: function() {
-    this.$el.html(this.template(this.model.attributes));
-    app.models.grouping = new app.GroupingModel();
-    app.views.grouping = new app.GroupingView({
-      model: app.models.grouping
-    });
-  }
-});
-
-app.GroupingView = Backbone.View.extend({
-  el: '#map-cel-grouping',
-  initialize: function() {
-    this.template = _.template(app.templates.get('grouping'));
-    this.render.apply(this);
-  },
-  render: function() {
-    this.$el.html(this.template(this.model.attributes));
-  }
-});
-
-app.ResultsView = Backbone.View.extend({
-  el: '#map-cel-results',
-  initialize: function() {
-    this.template = _.template(app.templates.get('results'));
-    this.render.apply(this);
-  },
-  events: {
-  },
-  render: function() {
-    this.$el.html(this.template(this.model.attributes));
-  }
-});
+*/

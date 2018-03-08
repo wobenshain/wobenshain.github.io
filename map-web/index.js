@@ -27,7 +27,14 @@ app.get('/test', function(req, res) {
 });
 
 app.get('/GSE', function(req, res) {
-  res.send(req.params);
+  var returnValue = JSON.parse(R("getGSE.R")
+    .data(JSON.stringify(req.query))
+    .callSync());
+  if (returnValue.error === undefined) {
+    res.send(returnValue['saveValue']);
+  } else {
+    res.status(500).send(returnValue.statusMessage);
+  }
 });
 
 app.listen(80);
