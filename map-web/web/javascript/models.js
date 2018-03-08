@@ -37,7 +37,22 @@ app.FilesModel = Backbone.Model.extend({
     defaults: {
         files: []
     },
-    url: '/GSE'
+    url: '/GSE',
+    parse: function(resp) {
+        resp.files.map(function(entry) {
+            for (var prop in entry) {
+                entry[prop] = entry[prop].split("")
+                    .map(function (char) {
+                        var charCode = char.charCodeAt(0);
+                        return charCode > 127 ? '&#'+charCode+';' : char;
+                    }).join("");
+            }
+            entry.group = null;
+        });
+        resp.tableOrder.push('group');
+        console.log(resp);
+        return resp;
+    }
 });
 
 app.GroupingModel = Backbone.Model.extend({

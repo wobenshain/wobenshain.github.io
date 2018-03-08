@@ -7,9 +7,11 @@
     "example": "examples"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "nodemon": "^1.14.12",
-    "r-script": "0.0.3"
+    "r-script": "0.0.3",
+    "utf8": "^3.0.0"
   },
   "devDependencies": {},
   "scripts": {

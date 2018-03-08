@@ -1,7 +1,9 @@
 var express = require('express'),
     R = require("r-script"),
-    app = express();
+    app = express(),
+    bodyParser = require('body-parser');
 
+app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static('web'));
 
 app.get('/test', function(req, res) {
@@ -26,10 +28,11 @@ app.get('/test', function(req, res) {
   );
 });
 
-app.get('/GSE', function(req, res) {
-  var returnValue = JSON.parse(R("getGSE.R")
-    .data(JSON.stringify(req.query))
-    .callSync());
+app.post('/GSE', function(req, res) {
+  console.log('/GSE');
+  var returnValue = JSON.parse(decodeURI(R("getGSE.R")
+    .data(JSON.stringify(req.body))
+    .callSync()));
   if (returnValue.error === undefined) {
     res.send(returnValue['saveValue']);
   } else {
