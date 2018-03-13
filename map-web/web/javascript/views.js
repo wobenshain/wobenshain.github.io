@@ -53,8 +53,21 @@ app.InputsView = Backbone.View.extend({
                     model: app.models.files
                 });
                 break;
-    default:
+            default:
         }
+    }
+});
+
+app.CelsView = Backbone.View.extend({
+    el: '#map-files',
+    initialize: function() {
+        this.template = _.template(app.templates.get('inputs'));
+        this.render.apply(this);
+    },
+    events: {
+    },
+    render: function() {
+        this.$el.html(this.template(this.model.attributes));
     }
 });
 
@@ -76,8 +89,15 @@ app.GeoView = Backbone.View.extend({
                 'gsecode': this.model.get('gsecode')
             }
         }).done(function() {
+            var selected = {};
+            $that.model.get('files').map(function(e,i) { selected[i] = false; });
+            app.models.grouping = new app.GroupingModel({
+                files: $that.model.get('files'),
+                tableOrder: $that.model.get('tableOrder'),
+                selected: selected
+            });
             app.views.grouping = new app.GroupingView({
-                model: $that.model
+                model: app.models.grouping
             });
         });
     },
@@ -90,14 +110,55 @@ app.GroupingView = Backbone.View.extend({
     el: '#map-grouping',
     initialize: function() {
         this.template = _.template(app.templates.get('grouping'));
+        this.model.on({
+            'change:applying': this.renderApply,
+            'change:group_name': this.renderApply
+        }, this);
         this.render.apply(this);
+    },
+    events: {
+        'keyup input': app.events.updateModel,
+        'click tbody tr': 'selectRow',
+        'click button': 'applyGroup'
+    },
+    selectRow: function(e) {
+        var row = this.model.get('table').row(e.currentTarget);
+        if (this.model.get('applying')) {
+            var group_name = this.model.get('group_name');
+            row.data().group = group_name;
+            row.invalidate().draw('page');
+        } else {
+            if ($(row.node()).hasClass('selected')) {
+                row.deselect();
+            } else {
+                row.select();
+            }
+        }
+    },
+    applyGroup: function(e) {
+        var table = this.model.get('table'),
+            group_name = this.model.get('group_name'),
+            rows = table.rows({selected: true});
+        if (rows[0].length > 0) {
+            rows.data().map(function(e) { e.group = group_name; });
+            rows.invalidate().draw('page').deselect();
+        } else {
+            this.model.set('applying',!this.model.get('applying'));
+        }
     },
     render: function() {
         this.$el.html(this.template(this.model.attributes));
-        this.$el.find('#map-grouping-table').DataTable({
+        this.model.set('table',this.$el.find('#map-grouping-table').DataTable({
             data: this.model.get('files'),
             columns: this.model.get('tableOrder').map(function(entry) { return {title:entry,data:entry}; })
-        });
+        }));
+    },
+    renderApply: function() {
+        var applying = this.model.get('applying');
+        this.$el.find('[name="group_name"]').prop('disabled',applying);
+        this.$el.find('button[name="apply"]')
+            .toggleClass('active',applying)
+            .prop('disabled',this.model.get('group_name') == '');
     }
 });
 

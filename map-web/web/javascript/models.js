@@ -2,7 +2,7 @@ app.TemplatesModel = Backbone.Model.extend({
     defaults: {},
     fetch: function() {
         var $that = this,
-            templateList = ["main","inputs","upload","files","grouping","results","geo"],
+            templateList = ["main","inputs","upload","cels","geo","grouping","results"],
             templateObject = {},
             deferred = $.Deferred(),
             after = _.after(templateList.length,function() {
@@ -35,7 +35,8 @@ app.InputsModel = Backbone.Model.extend({
 
 app.FilesModel = Backbone.Model.extend({
     defaults: {
-        files: []
+        files: [],
+        tableOrder: []
     },
     url: '/GSE',
     parse: function(resp) {
@@ -56,7 +57,13 @@ app.FilesModel = Backbone.Model.extend({
 });
 
 app.GroupingModel = Backbone.Model.extend({
-    defaults: {}
+    defaults: {
+        applying: false,
+        files: [],
+        group_name: '',
+        table: [],
+        tableorder: []
+    }
 });
 
 app.ResultsModel = Backbone.Model.extend({
